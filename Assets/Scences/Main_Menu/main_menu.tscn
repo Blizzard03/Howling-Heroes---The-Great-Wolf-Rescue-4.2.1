@@ -1,0 +1,101 @@
+[gd_scene load_steps=10 format=3 uid="uid://capgwdnhn40bm"]
+
+[ext_resource type="Script" path="res://Assets/Script/Controller/Main_Menu/main_menu.gd" id="1_7sdc4"]
+[ext_resource type="Texture2D" uid="uid://cr45jhnjp8ehr" path="res://Assets/Background/Main_Menu/w2BsPEmg.jpeg" id="1_808c3"]
+[ext_resource type="PackedScene" uid="uid://dob6emt4s6ghl" path="res://Assets/Scences/Buttons/new_game_main_menu_buttons.tscn" id="2_jq6io"]
+[ext_resource type="PackedScene" uid="uid://n1kf7qrjosby" path="res://Assets/Scences/Buttons/continue_main_menu_buttons.tscn" id="3_ypkeh"]
+[ext_resource type="PackedScene" uid="uid://cbyoju680ox7j" path="res://Assets/Scences/Buttons/options_main_menu_buttons.tscn" id="4_56h56"]
+[ext_resource type="PackedScene" uid="uid://b4psarnguyn77" path="res://Assets/Scences/Buttons/quit_main_menu_buttons.tscn" id="5_xhddb"]
+[ext_resource type="FontFile" uid="uid://bodlyg445a23y" path="res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf" id="6_tdjbo"]
+[ext_resource type="Texture2D" uid="uid://d3q87srp07s8y" path="res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png" id="7_uuq8d"]
+[ext_resource type="AudioStream" uid="uid://dblg48k7tvc82" path="res://Assets/Music/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3" id="8_mlvj8"]
+
+[node name="Main_Menu" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_7sdc4")
+
+[node name="Background" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_808c3")
+
+[node name="Logo" type="TextureRect" parent="Background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 123.0
+offset_top = 87.0
+offset_right = -980.0
+offset_bottom = -427.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("7_uuq8d")
+expand_mode = 2
+
+[node name="Label" type="Label" parent="Background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 182.0
+offset_top = 2.0
+offset_right = -43.0
+offset_bottom = -576.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0.85098, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.301961, 0.301961, 0.301961, 1)
+theme_override_colors/font_outline_color = Color(0, 0, 0, 1)
+theme_override_constants/shadow_offset_x = 0
+theme_override_constants/outline_size = 5
+theme_override_fonts/font = ExtResource("6_tdjbo")
+theme_override_font_sizes/font_size = 24
+text = "HOWLING HEROS : THE GREAT WOLF RUESCUE"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Background"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 764.0
+offset_top = 192.0
+offset_right = -90.0
+offset_bottom = -107.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="New_Game_Main_Menu_Buttons" parent="Background/VBoxContainer" instance=ExtResource("2_jq6io")]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Continue_Main_Menu_Buttons" parent="Background/VBoxContainer" instance=ExtResource("3_ypkeh")]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Options_Main_Menu_Buttons" parent="Background/VBoxContainer" instance=ExtResource("4_56h56")]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Quit_Main_Menu_Buttons" parent="Background/VBoxContainer" instance=ExtResource("5_xhddb")]
+layout_mode = 2
+size_flags_vertical = 3
+
+[node name="Back_Sound" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("8_mlvj8")
+
+[connection signal="pressed" from="Background/VBoxContainer/New_Game_Main_Menu_Buttons" to="." method="_on_new_game_main_menu_buttons_pressed"]
+[connection signal="pressed" from="Background/VBoxContainer/Continue_Main_Menu_Buttons" to="." method="_on_continue_main_menu_buttons_pressed"]
+[connection signal="pressed" from="Background/VBoxContainer/Options_Main_Menu_Buttons" to="." method="_on_options_main_menu_buttons_pressed"]
+[connection signal="pressed" from="Background/VBoxContainer/Quit_Main_Menu_Buttons" to="." method="_on_quit_main_menu_buttons_pressed"]

@@ -1,0 +1,75 @@
+[gd_scene load_steps=5 format=3 uid="uid://cvjvmfot8bet4"]
+
+[ext_resource type="Texture2D" uid="uid://d3utihladqw4d" path="res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg" id="1_ebvdr"]
+[ext_resource type="Script" path="res://Assets/Script/Controller/Loading/loading_screen.gd" id="1_p8j1v"]
+[ext_resource type="FontFile" uid="uid://dkdevtapakoig" path="res://Assets/Fonts/DisposableDroidBB_bld.ttf" id="2_0qt3p"]
+[ext_resource type="FontFile" uid="uid://3cjh43fvy564" path="res://Assets/Fonts/DisposableDroidBB_bldital.ttf" id="4_ydex3"]
+
+[node name="Loading_Screen" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_p8j1v")
+
+[node name="TextureRect" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ebvdr")
+
+[node name="Label" type="Label" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 652.0
+offset_bottom = -46.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("2_0qt3p")
+theme_override_font_sizes/font_size = 24
+text = "Loading"
+
+[node name="ProgressBar" type="ProgressBar" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_top = 679.0
+offset_right = -527.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Button" type="Button" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = 1126.0
+offset_top = 670.0
+offset_right = -3.0
+offset_bottom = -16.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Label" type="Label" parent="TextureRect/Button"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("4_ydex3")
+theme_override_font_sizes/font_size = 24
+text = "Next"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="Timer" type="Timer" parent="."]

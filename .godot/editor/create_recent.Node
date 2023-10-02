@@ -1,1 +1,14 @@
+VBoxContainer
+Label
 TextureRect
+AudioStreamPlayer
+Control
+BoxContainer
+Button
+Node
+Timer
+ProgressBar
+ColorRect
+AnimationPlayer
+CanvasLayer
+CenterContainer

@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://n1kf7qrjosby"]
+
+[ext_resource type="PackedScene" uid="uid://cmuesdh5ha2sy" path="res://Assets/Scences/Buttons/Main_Menu_Buttons.tscn" id="1_xmf6j"]
+
+[node name="Continue_Main_Menu_Buttons" instance=ExtResource("1_xmf6j")]
+
+[node name="Label" parent="." index="0"]
+text = "Continue"
