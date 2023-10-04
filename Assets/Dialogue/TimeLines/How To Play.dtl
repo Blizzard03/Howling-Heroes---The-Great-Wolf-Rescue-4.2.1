@@ -1,0 +1,4 @@
+[style name="Pixelized-Visual_Novel"]
+[background arg="res://Assets/Image/images/Background/Info_Intro/Hill.png" fade="0.0"]
+[music path="res://Assets/Music/How_To_Play/Clift.mp3" fade="0.0" volume="0.0"]
+Join Narator (no_Background) 1 [animation="Fade In Up" wait="true"]

@@ -1,1 +1,29 @@
-
+[style name="Pixelized-Visual_Novel"]
+label First-Background+Sound
+[music path="res://Assets/Music/Intro_Backsound/Taiga_Sound.wav" fade="5.0" volume="-4.0" bus="Master" loop="false"]
+[background arg="res://Assets/Image/images/Background/Intro/Bwbd1Y9Fa9bYowt41VcH--1--pmpjy.jpg" fade="3.0"]
+label Intro-1
+[voice path="res://Assets/Music/Intro/Intro_1.mp3" volume="0.0"]
+There were 2 wolves in the Stone Bridge taiga forest, the first was an Alpha Male, a Timber Wolf from Western Pack 03.
+label Intro-2
+[voice path="res://Assets/Music/Intro/Intro_2.mp3" volume="0.0" bus="Master"]
+His name was Blizzard Wolf Smith. His father was Dark Wolf Smith, a Black Wolf and his mother was Winter Wolf Smith, an Artic Wolf. Blizzard Wolf Smith was the 17th of 30 brothers and he is also the last of the 7th generation of his family.
+label Intro-3
+[voice path="res://Assets/Music/Intro/Intro_3.mp3" volume="0.0" bus="Master"]
+And the second was an Alpha Female, an Artic Wolf from Western Pack 33.
+label Intro-4
+[voice path="res://Assets/Music/Intro/Intro_4.mp3" volume="0.0" bus="Master"]
+Her name was Luna Lupine, her father was Paroah Lupine, an Artic Wolf and her mother was Pearl Lupine, a Brown Wolf.
+label Intro-5
+[voice path="res://Assets/Music/Intro/Intro_5.mp3" volume="0.0" bus="Master"]
+Luna Lupine was the 6th of 7 children and she was also the 3rd generation of her family.
+label Second-Background + Audio
+[music path="res://Assets/Music/Intro_Backsound/Burned Forest.wav" fade="0.0" volume="0.0" bus="Master" loop="false"]
+[background arg="res://Assets/Image/images/Background/Intro/Burned Forest.png" fade="3.0"]
+label Intro-6
+[voice path="res://Assets/Music/Intro/Intro_6.mp3" volume="0.0" bus="Master"]
+During the next full moon, hunters (humans) entered the territory of the western wolf pack and exterminated all the wolves in the pack, then Blizzard Wolf Smith or Luna Lupine started to save all the members of the pack,
+label Intro-7
+[voice path="res://Assets/Music/Intro/Intro_7.mp3" volume="0.0"]
+but it was too late because all the members of the pack had been exterminated by the hunters, including their parents who had died protecting them.
+[end_timeline]

@@ -8,7 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://b4psarnguyn77" path="res://Assets/Scences/Buttons/quit_main_menu_buttons.tscn" id="5_xhddb"]
 [ext_resource type="FontFile" uid="uid://bodlyg445a23y" path="res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf" id="6_tdjbo"]
 [ext_resource type="Texture2D" uid="uid://d3q87srp07s8y" path="res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png" id="7_uuq8d"]
-[ext_resource type="AudioStream" uid="uid://dblg48k7tvc82" path="res://Assets/Music/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3" id="8_mlvj8"]
+[ext_resource type="AudioStream" uid="uid://dblg48k7tvc82" path="res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3" id="8_mlvj8"]
 
 [node name="Main_Menu" type="Control"]
 layout_mode = 3
