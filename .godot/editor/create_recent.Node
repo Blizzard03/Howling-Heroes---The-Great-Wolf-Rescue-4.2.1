@@ -1,10 +1,10 @@
-VBoxContainer
-Label
 TextureRect
+Button
+Label
+VBoxContainer
 AudioStreamPlayer
 Control
 BoxContainer
-Button
 Node
 Timer
 ProgressBar

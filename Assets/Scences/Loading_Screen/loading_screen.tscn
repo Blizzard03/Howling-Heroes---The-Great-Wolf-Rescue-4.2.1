@@ -1,9 +1,9 @@
 [gd_scene load_steps=5 format=3 uid="uid://cvjvmfot8bet4"]
 
-[ext_resource type="Texture2D" uid="uid://d3utihladqw4d" path="res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg" id="1_ebvdr"]
+[ext_resource type="Texture2D" uid="uid://bpbuyu1xylgrl" path="res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg" id="1_ebvdr"]
 [ext_resource type="Script" path="res://Assets/Script/Controller/Loading/loading_screen.gd" id="1_p8j1v"]
-[ext_resource type="FontFile" uid="uid://dkdevtapakoig" path="res://Assets/Fonts/DisposableDroidBB_bld.ttf" id="2_0qt3p"]
-[ext_resource type="FontFile" uid="uid://3cjh43fvy564" path="res://Assets/Fonts/DisposableDroidBB_bldital.ttf" id="4_ydex3"]
+[ext_resource type="FontFile" uid="uid://cygq2hu054h7i" path="res://Assets/Fonts/DisposableDroidBB_bld.ttf" id="2_0qt3p"]
+[ext_resource type="FontFile" uid="uid://bbiuqlj25wfeg" path="res://Assets/Fonts/DisposableDroidBB_bldital.ttf" id="4_ydex3"]
 
 [node name="Loading_Screen" type="Control"]
 layout_mode = 3

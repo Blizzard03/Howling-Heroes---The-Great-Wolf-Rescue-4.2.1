@@ -1,9 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://bhwlhgwnhwc3k"]
 
 [ext_resource type="Script" path="res://Assets/Script/Splash_Screen/Splash_Screen.gd" id="1_buojd"]
-
-[sub_resource type="CompressedTexture2D" id="CompressedTexture2D_fwiox"]
-load_path = "res://.godot/imported/Splash Screen.png-16931558d6f956c167d28c76aea787d9.ctex"
+[ext_resource type="Texture2D" uid="uid://cd8q3tqr5eq4r" path="res://Assets/Image/Splash Screen/Splash Screen.png" id="2_rgff4"]
 
 [sub_resource type="Animation" id="Animation_rejm7"]
 resource_name = "Fade_In"
@@ -68,9 +66,10 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
-texture = SubResource("CompressedTexture2D_fwiox")
+texture = ExtResource("2_rgff4")
 
 [node name="ColorRect" type="ColorRect" parent="."]
+visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0

@@ -1,3 +1,5 @@
+res://Assets/Fonts
+res://Assets/Script/Controller/Character_Selector
 res://Assets/Music/How_To_Play
 res://Assets/Image/images/Background/Info_Intro
 res://Assets/Dialogue/TimeLines
@@ -5,7 +7,6 @@ res://Assets/Image/Character/Mr_Wolf
 res://Assets/Music/Intro_Backsound
 res://Assets/Music/Intro
 res://Assets/Image/images/Background/Intro
-res://Assets/Fonts
 res://Assets/Image/Character
 res://Assets/Scences/Buttons
 res://Assets/Scences/Main_Menu

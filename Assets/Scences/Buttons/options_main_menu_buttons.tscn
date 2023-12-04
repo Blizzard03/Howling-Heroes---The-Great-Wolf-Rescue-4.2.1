@@ -1,8 +1,0 @@
-[gd_scene load_steps=2 format=3 uid="uid://cbyoju680ox7j"]
-
-[ext_resource type="PackedScene" uid="uid://cmuesdh5ha2sy" path="res://Assets/Scences/Buttons/Main_Menu_Buttons.tscn" id="1_e78go"]
-
-[node name="Options_Main_Menu_Buttons" instance=ExtResource("1_e78go")]
-
-[node name="Label" parent="." index="0"]
-text = "Options"

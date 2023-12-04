@@ -1,6 +1,9 @@
 res://Assets/Scences/Main_Menu/main_menu.tscn
-res://Assets/Dialogue/Character/Narator.dch
-res://Assets/Dialogue/TimeLines/How_to_Play.dtl
+res://Assets/Scences/Character/Character_Selector/Character_Selector.tscn
+res://Assets/Scences/Character/Character_Selector/Selector_Player.tscn
+res://Assets/Scences/UI/Selector/Blizzard_Button_Selector.tscn
+res://Assets/Scences/UI/Selector/Button_Selector.tscn
+res://Assets/Scences/UI/Selector/Luna_Button_Selector.tscn
+res://Assets/Scences/Splash/Splash_Screen_Played.tscn
 res://Assets/Scences/Loading_Screen/loading_screen.tscn
-res://Assets/Dialogue/TimeLines/How To Play.dtl
-res://Assets/Dialogue/Character/Mr_Wolf.dch
+res://Assets/Scences/Splash/Splash_Screen.tscn
