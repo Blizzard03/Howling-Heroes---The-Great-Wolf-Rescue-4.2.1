@@ -1,5 +1,5 @@
 res://Assets/Fonts
-res://Assets/Script/Controller/Character_Selector
+res://Assets/Background/Loading_Screen
 res://Assets/Music/How_To_Play
 res://Assets/Image/images/Background/Info_Intro
 res://Assets/Dialogue/TimeLines
@@ -8,12 +8,9 @@ res://Assets/Music/Intro_Backsound
 res://Assets/Music/Intro
 res://Assets/Image/images/Background/Intro
 res://Assets/Image/Character
-res://Assets/Scences/Buttons
-res://Assets/Scences/Main_Menu
 res://Assets/Music
 res://Assets/Image/Logo
 res://Assets/Background/Main_Menu
-res://Assets/Scences/Splash
 res://addons/dialogic/Modules/Background
 res://addons/dialogic/Modules/Character
 res://addons/dialogic/Example Assets

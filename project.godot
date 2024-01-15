@@ -11,14 +11,14 @@ config_version=5
 [application]
 
 config/name="HOWLING HEROES : THE GREAT WOLF RESCUE"
-run/main_scene="res://Assets/Scences/Splash/Splash_Screen_Played.tscn"
-config/features=PackedStringArray("4.1")
+run/main_scene="res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn"
+config/features=PackedStringArray("4.2")
 run/max_fps=144
 
 [autoload]
 
 Dialogic="*res://addons/dialogic/Other/DialogicGameHandler.gd"
-Global="*res://Assets/Script/Controller/Loading/Global.gd"
+LoadingScreen="*res://Assets/Script/Controller/UI/Loading/loading_screen.gd"
 
 [dialogic]
 
@@ -83,6 +83,16 @@ layout/end_behaviour=0
 choices/reveal_delay=0
 choices/reveal_by_input=false
 layout/styles={
+"Pixelized-Text Bubble": {
+"export_overrides": {
+"bold_font": "\"res://Assets/Fonts/DisposableDroidBB_bld.ttf\"",
+"bold_italic_font": "\"res://Assets/Fonts/DisposableDroidBB_bldital.ttf\"",
+"italic_font": "\"res://Assets/Fonts/DisposableDroidBB_ital.ttf\"",
+"name_label_font": "\"res://Assets/Fonts/DisposableDroidBB.ttf\"",
+"normal_font": "\"res://Assets/Fonts/DisposableDroidBB.ttf\""
+},
+"layout": "res://addons/dialogic/Modules/DefaultLayouts/TextBubble/DialogicTextBubbleLayout.tscn"
+},
 "Pixelized-Visual_Novel": {
 "export_overrides": {
 "bold_font": "\"res://Assets/Fonts/DisposableDroidBB_bld.ttf\"",
@@ -90,9 +100,9 @@ layout/styles={
 "box_size": "Vector2(800, 180)",
 "italic_font": "\"res://Assets/Fonts/DisposableDroidBB_ital.ttf\"",
 "name_label_font": "\"res://Assets/Fonts/DisposableDroidBB.ttf\"",
-"name_label_font_size": "24.0",
+"name_label_font_size": "32.0",
 "normal_font": "\"res://Assets/Fonts/DisposableDroidBB.ttf\"",
-"text_size": "24.0"
+"text_size": "32.0"
 }
 },
 "SmallRPG_Style": {

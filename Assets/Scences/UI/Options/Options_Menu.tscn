@@ -1,6 +1,6 @@
-[gd_scene format=3 uid="uid://nlkywa81exa3"]
+[gd_scene format=3 uid="uid://wh1qjrf1tb56"]
 
-[node name="Character Selector" type="Control"]
+[node name="OptionsMenu" type="Control"]
 layout_mode = 3
 anchors_preset = 15
 anchor_right = 1.0
