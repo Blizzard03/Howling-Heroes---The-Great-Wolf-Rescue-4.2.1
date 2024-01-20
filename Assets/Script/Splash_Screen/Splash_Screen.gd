@@ -4,4 +4,4 @@ func _ready():
 	await get_tree().create_timer(6).timeout
 	$AnimationPlayer.play("Fade_Out")
 	await get_tree().create_timer(3).timeout
-	get_tree().change_scene_to_file("res://Assets/Scences/Main_Menu/main_menu.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scences/UI/Main_Menu/main_menu.tscn")

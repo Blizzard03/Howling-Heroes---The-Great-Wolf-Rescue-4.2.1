@@ -1,3 +1,8 @@
+Button
+VBoxContainer
+MarginContainer
+TabBar
+TabContainer
 TextureRect
 ProgressBar
 AnimationPlayer
@@ -6,9 +11,4 @@ ColorRect
 CanvasLayer
 ConfirmationDialog
 Window
-Button
 Label
-VBoxContainer
-AudioStreamPlayer
-Control
-BoxContainer

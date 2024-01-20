@@ -1,8 +1,1 @@
-res://Assets/Dialogue/TimeLines/How To Play.dtl
-res://Assets/Dialogue/Character/Mr_Wolf.dch
-res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn
-res://Assets/Scences/UI/Loading_Screen/loading_screen.tscn
-res://Assets/Scences/UI/Main_Menu/main_menu.tscn
-res://Assets/Scences/UI/Splash/Splash_Screen.tscn
-res://Assets/Scences/Character/Character_Selector/Character_Selector.tscn
-res://Assets/Scences/UI/Options/Options_Menu.tscn
+res://Assets/Scences/UI/Pause Menu/Pause_Menu.tscn

@@ -1,8 +1,9 @@
-ea4bc82a6ad023ab7ee23ee620429895
-::res://::1705293215
+fc8a56933c4b1c8d796fdb8f7a9f9475
+::res://::1705738304
 default_bus_layout.tres::AudioBusLayout::196888898710771457::1705076652::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1705518626::0::1::::<><>::
 icon.svg::CompressedTexture2D::9040232485018639690::1705076652::1705076652::1::::<><>::
-README.md::TextFile::-1::1705076652::0::1::::<><>::
+README.md::TextFile::-1::1705319717::0::1::::<><>::
 ::res://addons/::1705076652
 ::res://addons/dialogic/::1705076652
 plugin.cfg::TextFile::-1::1705076652::0::1::::<><>::
@@ -473,10 +474,10 @@ Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg::CompressedTexture2
 ::res://Assets/Background/Main_Menu/::1705080089
 w2BsPEmg.jpeg::CompressedTexture2D::5367935207661175913::1705076648::1705080089::1::::<><>::
 ::res://Assets/Dialogue/::1705076648
-::res://Assets/Dialogue/Character/::1705246885
-Mr_Wolf.dch::Resource::-1::1705246885::0::1::::<><>::
-::res://Assets/Dialogue/TimeLines/::1705076648
-How To Play.dtl::Resource::-1::1705076648::0::1::::<><>::
+::res://Assets/Dialogue/Character/::1705304585
+Mr_Wolf.dch::Resource::-1::1705304585::0::1::::<><>::
+::res://Assets/Dialogue/TimeLines/::1705304442
+How To Play.dtl::Resource::-1::1705304442::0::1::::<><>::
 Intro.dtl::Resource::-1::1705076648::0::1::::<><>::
 ::res://Assets/Fonts/::1705080073
 Bloodthirsty-3j0p.ttf::FontFile::5888104312812167429::1705076648::1705080073::1::::<><>::
@@ -1786,37 +1787,39 @@ you_win.ogg::AudioStreamOggVorbis::2412972836078629985::1705076651::1705080073::
 Start_Buton_Sound.mp3::AudioStreamMP3::6821599815156144545::1705076652::1705080073::1::::<><>::
 ::res://Assets/Scences/::1705246784
 ::res://Assets/Scences/Character/::1705076652
-::res://Assets/Scences/Character/Character_Selector/::1705248432
-Character_Selector.tscn::PackedScene::935814308618461400::1705248432::0::1::::<><>::
+::res://Assets/Scences/Character/Character_Selector/::1705518891
+Character_Selector.tscn::PackedScene::935814308618461400::1705518891::0::1::::<><>::
 ::res://Assets/Scences/Location/::1705076652
 ::res://Assets/Scences/Location/Bridge_Stone_Forest/::1705076652
 Bridge_Stone_Forest.tscn::PackedScene::5895699722967377137::1705076652::0::1::::<><>::
 ::res://Assets/Scences/Location/How_to_Play/::1705076652
 How_To_Play.tscn::PackedScene::5079252934453415338::1705076652::0::1::::<><>::
-::res://Assets/Scences/UI/::1705246784
-::res://Assets/Scences/UI/Exit_Confirmation/::1705246691
-Exit_Confirmation.tscn::PackedScene::3820247117874205729::1705246691::0::1::::<><>::res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd<>uid://c5d6dphqxcljj::::res://Assets/Fonts/DisposableDroidBB.ttf
-::res://Assets/Scences/UI/Loading_Screen/::1705246910
-loading_screen.tscn::PackedScene::6266683255097803947::1705246910::0::1::::<><>::res://Assets/Script/Controller/UI/Loading/loading_screen_Menu.gd<>uid://cuwj7q36doaxe::::res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg
-::res://Assets/Scences/UI/Main_Menu/::1705246874
-main_menu.tscn::PackedScene::4804210801108702186::1705246874::0::1::::<><>::res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd<>uid://ciqjdxsu2u7a0::::res://Assets/Background/Main_Menu/w2BsPEmg.jpeg<>uid://bd7d25nixuqp7::::res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png<>uid://b1xg8xeut7kb4::::res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf<>uid://cisbo3hvcph4::::res://Assets/Fonts/DisposableDroidBB_bld.ttf<>uid://d2yu38hsrqif0::::res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3
-::res://Assets/Scences/UI/Options/::1705246567
-Options_Menu.tscn::PackedScene::1560212918064034487::1705246567::0::1::::<><>::
-::res://Assets/Scences/UI/Splash/::1705244352
-Splash_Screen.tscn::PackedScene::2923839636953089034::1705244352::0::1::::<><>::res://Assets/Script/Splash_Screen/Splash_Screen.gd<>uid://bhux2oxa1b8gs::::res://Assets/Image/Splash Screen/Splash Screen.png
-Splash_Screen_Played.tscn::PackedScene::960210786821005025::1705244351::0::1::::<><>::res://Assets/Script/Splash_Screen/Splash_Screen_Played.gd<>uid://b2l24gue2uvle::::res://Assets/Image/Keyboard and Mouse/478401-PHEZK8-856.png<>uid://cisbo3hvcph4::::res://Assets/Fonts/DisposableDroidBB_bld.ttf
+::res://Assets/Scences/UI/::1705659140
+::res://Assets/Scences/UI/Exit_Confirmation/::1705518891
+Exit_Confirmation.tscn::PackedScene::3820247117874205729::1705518891::0::1::::<><>::res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd<>uid://c5d6dphqxcljj::::res://Assets/Fonts/DisposableDroidBB.ttf
+::res://Assets/Scences/UI/Loading_Screen/::1705518890
+loading_screen.tscn::PackedScene::6266683255097803947::1705518890::0::1::::<><>::res://Assets/Script/Controller/UI/Loading/loading_screen_Menu.gd<>uid://cuwj7q36doaxe::::res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg
+::res://Assets/Scences/UI/Main_Menu/::1705531039
+main_menu.tscn::PackedScene::4804210801108702186::1705531039::0::1::::<><>::res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd<>uid://ciqjdxsu2u7a0::::res://Assets/Background/Main_Menu/w2BsPEmg.jpeg<>uid://bd7d25nixuqp7::::res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png<>uid://b1xg8xeut7kb4::::res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf<>uid://cisbo3hvcph4::::res://Assets/Fonts/DisposableDroidBB_bld.ttf<>uid://d2yu38hsrqif0::::res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3
+::res://Assets/Scences/UI/Options/::1705555006
+Options_Menu.tscn::PackedScene::1560212918064034487::1705555006::0::1::::<><>::uid://bjw2om5eb4kh1::::res://Assets/Image/images/Background/Option/Settings.jpeg
+::res://Assets/Scences/UI/Pause Menu/::1705662742
+Pause_Menu.tscn::PackedScene::1060863744242428003::1705662742::0::1::::<><>::uid://c5d6dphqxcljj::::res://Assets/Fonts/DisposableDroidBB.ttf
+::res://Assets/Scences/UI/Splash/::1705518890
+Splash_Screen.tscn::PackedScene::2923839636953089034::1705518756::0::1::::<><>::res://Assets/Script/Splash_Screen/Splash_Screen.gd<>uid://bhux2oxa1b8gs::::res://Assets/Image/Splash Screen/Splash Screen.png
+Splash_Screen_Played.tscn::PackedScene::960210786821005025::1705518890::0::1::::<><>::res://Assets/Script/Splash_Screen/Splash_Screen_Played.gd<>uid://b2l24gue2uvle::::res://Assets/Image/Keyboard and Mouse/478401-PHEZK8-856.png<>uid://cisbo3hvcph4::::res://Assets/Fonts/DisposableDroidBB_bld.ttf
 ::res://Assets/Script/::1705076652
 ::res://Assets/Script/Controller/::1705246751
 ::res://Assets/Script/Controller/UI/::1705246751
 ::res://Assets/Script/Controller/UI/Character_Selector/::1705076652
 Selector_Player.gd::GDScript::-1::1705076652::0::1::::<>Node2D<>::
-::res://Assets/Script/Controller/UI/Exit_Confirmation/::1705246691
-Exit Confirmation.gd::GDScript::-1::1705244483::0::1::::<>Control<>::
+::res://Assets/Script/Controller/UI/Exit_Confirmation/::1705518884
+Exit Confirmation.gd::GDScript::-1::1705518884::0::1::::<>Control<>::
 ::res://Assets/Script/Controller/UI/Loading/::1705246726
 loading_screen.gd::GDScript::-1::1705218569::0::1::::<>Node<>::
 loading_screen_Menu.gd::GDScript::-1::1705246362::0::1::::<>CanvasLayer<>::
-::res://Assets/Script/Controller/UI/Main_Menu/::1705246761
-main_menu.gd::GDScript::-1::1705246761::0::1::::<>Control<>::
-::res://Assets/Script/Splash_Screen/::1705076652
-Splash_Screen.gd::GDScript::-1::1705076652::0::1::::<>Node<>::
+::res://Assets/Script/Controller/UI/Main_Menu/::1705519049
+main_menu.gd::GDScript::-1::1705519049::0::1::::<>Control<>::
+::res://Assets/Script/Splash_Screen/::1705518754
+Splash_Screen.gd::GDScript::-1::1705518754::0::1::::<>Node<>::
 Splash_Screen_Played.gd::GDScript::-1::1705076652::0::1::::<>Node<>::

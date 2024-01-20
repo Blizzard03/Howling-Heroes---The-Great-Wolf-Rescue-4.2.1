@@ -6,7 +6,7 @@ func _on_confirmation_dialog_confirmed():
 
 #No 
 func _on_confirmation_dialog_canceled():
-	get_tree().change_scene_to_file("res://Assets/Scences/Main_Menu/main_menu.tscn")
+	get_tree().change_scene_to_file("res://Assets/Scences/UI/Main_Menu/main_menu.tscn")
 
 
 
