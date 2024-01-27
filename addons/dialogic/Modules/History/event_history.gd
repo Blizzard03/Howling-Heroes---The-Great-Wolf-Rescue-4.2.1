@@ -24,7 +24,7 @@ func _execute() -> void:
 			dialogic.History.full_history_enabled = false
 		Actions.RESUME:
 			dialogic.History.full_history_enabled = true
-	
+
 	finish()
 
 
@@ -37,7 +37,6 @@ func _init() -> void:
 	set_default_color('Color9')
 	event_category = "Other"
 	event_sorting_index = 20
-	expand_by_default = false
 
 
 ################################################################################
@@ -50,8 +49,8 @@ func get_shortcode() -> String:
 func get_shortcode_parameters() -> Dictionary:
 	return {
 		#param_name 		: property_info
-		"action" 			: {"property": "action", "default": Actions.PAUSE, 
-								"suggestions": func(): return {"Clear":{'value':'0'}, "Pause":{'value':'1'}, "Resume":{'value':'2'}}},
+		"action" 			: {"property": "action", "default": Actions.PAUSE,
+								"suggestions": func(): return {"Clear":{'value':0}, "Pause":{'value':1}, "Resume":{'value':2}}},
 	}
 
 ################################################################################
@@ -59,8 +58,8 @@ func get_shortcode_parameters() -> Dictionary:
 ################################################################################
 
 func build_event_editor():
-	add_header_edit('action', ValueType.FIXED_OPTION_SELECTOR, '', '', {
-		'selector_options': [
+	add_header_edit('action', ValueType.FIXED_OPTIONS, {
+		'options': [
 			{
 				'label': 'Pause History',
 				'value': Actions.PAUSE,

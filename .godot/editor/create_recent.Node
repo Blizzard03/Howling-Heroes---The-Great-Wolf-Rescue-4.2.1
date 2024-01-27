@@ -1,9 +1,10 @@
+TextureRect
 Button
+Label
 VBoxContainer
 MarginContainer
 TabBar
 TabContainer
-TextureRect
 ProgressBar
 AnimationPlayer
 Panel
@@ -11,4 +12,3 @@ ColorRect
 CanvasLayer
 ConfirmationDialog
 Window
-Label

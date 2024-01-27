@@ -1,11 +1,11 @@
 [gd_scene load_steps=9 format=3 uid="uid://capgwdnhn40bm"]
 
 [ext_resource type="Script" path="res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd" id="1_2ju3c"]
-[ext_resource type="Texture2D" uid="uid://ciqjdxsu2u7a0" path="res://Assets/Background/Main_Menu/w2BsPEmg.jpeg" id="2_eo3sk"]
-[ext_resource type="Texture2D" uid="uid://bd7d25nixuqp7" path="res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png" id="3_aqiha"]
-[ext_resource type="FontFile" uid="uid://b1xg8xeut7kb4" path="res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf" id="4_c4irr"]
-[ext_resource type="FontFile" uid="uid://cisbo3hvcph4" path="res://Assets/Fonts/DisposableDroidBB_bld.ttf" id="5_vrfc0"]
-[ext_resource type="AudioStream" uid="uid://d2yu38hsrqif0" path="res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3" id="6_h2jsk"]
+[ext_resource type="Texture2D" uid="uid://c5mw58h2ajhr" path="res://Assets/Background/Main_Menu/w2BsPEmg.jpeg" id="2_eo3sk"]
+[ext_resource type="Texture2D" uid="uid://c4aec0kompmv8" path="res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png" id="3_aqiha"]
+[ext_resource type="FontFile" uid="uid://daews5bmpatgf" path="res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf" id="4_c4irr"]
+[ext_resource type="FontFile" uid="uid://bv6xsykw7vcai" path="res://Assets/Fonts/DisposableDroidBB_bld.ttf" id="5_vrfc0"]
+[ext_resource type="AudioStream" uid="uid://bvycrbomgp75i" path="res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3" id="6_h2jsk"]
 
 [sub_resource type="Theme" id="Theme_oaio5"]
 

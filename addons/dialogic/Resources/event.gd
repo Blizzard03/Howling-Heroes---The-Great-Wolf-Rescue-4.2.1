@@ -2,7 +2,7 @@
 class_name DialogicEvent
 extends Resource
 
-## Base event class for all dialogic events. 
+## Base event class for all dialogic events.
 ## Implements basic properties, translation, shortcode saving and usefull methods for creating
 ## the editor UI.
 
@@ -11,7 +11,7 @@ extends Resource
 ## The signal is emmited with the event resource [code]event_resource[/code]
 signal event_started(event_resource)
 
-## Emmited when the event finish. 
+## Emmited when the event finish.
 ## The signal is emmited with the event resource [code]event_resource[/code]
 signal event_finished(event_resource)
 
@@ -19,26 +19,24 @@ signal event_finished(event_resource)
 ### Main Event Properties ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## The event name that'll be displayed in the editor.
-var event_name:String = "Event"
+var event_name: String = "Event"
 ## Unique identifier used for translatable events.
-var _translation_id :String= ""
+var _translation_id: String = ""
 ## A reference to dialogic during execution, can be used the same as Dialogic (reference to the autoload)
-var dialogic = null
+var dialogic: DialogicGameHandler = null
 
 
 ### Special Event Properties ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 ### (these properties store how this event affects indentation/flow of timeline)
 
 ## If true this event can not be toplevel (e.g. Choice)
-var needs_indentation : bool = false
+var needs_indentation: bool = false
 ## If true this event will spawn with an END BRANCH event and higher the indentation
-var can_contain_events : bool = false
+var can_contain_events: bool = false
 ## If [can_contain_events] is true this is a reference to the end branch event
-var end_branch_event : DialogicEndBranchEvent = null
+var end_branch_event: DialogicEndBranchEvent = null
 ## If this is true this event expects a specific parent event.
-var needs_parent_event : bool = false
-## If true the next event will be played without awaiting input from the player
-var continue_at_end:bool = true
+var needs_parent_event: bool = false
 
 
 ### Saving/Loading Properties ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -64,18 +62,18 @@ var display_name: bool = true
 ## If true the event will not have a button in the visual editor sidebar
 var disable_editor_button: bool = false
 ## If false the event will hide it's body by default. Recommended for most events
-var expand_by_default : bool = true
-## The URL to open when right_click>Documentation is selected 
-var help_page_path : String = ""
+var expand_by_default: bool = false
+## The URL to open when right_click>Documentation is selected
+var help_page_path: String = ""
 ## Is the event block created by a button?
-var created_by_button : bool = false
+var created_by_button: bool = false
 
 ## Reference to the node, that represents this event. Only works while in visual editor mode.
 ## Use with care.
-var _editor_node : Control = null
+var _editor_node: Control = null
 
 ## The categories and which one to put it in (in the visual editor sidebar)
-var event_category:String = "Other"
+var event_category: String = "Other"
 
 
 ### Editor UI creation ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -86,22 +84,21 @@ enum Location {HEADER, BODY}
 ## To differentiate the different types of fields for event properties in the visual editor
 enum ValueType {
 	# Strings
-	LABEL, MULTILINE_TEXT, SINGLELINE_TEXT, CONDITION,
+	MULTILINE_TEXT, SINGLELINE_TEXT, CONDITION, FILE,
 	# Booleans
-	BOOL,
-	# Resources
-	COMPLEX_PICKER, FILE,
-	# Array
-	STRING_ARRAY,
-	# Integers
-	FIXED_OPTION_SELECTOR, INTEGER, VECTOR2,
-	# Floats
-	FLOAT, DECIBEL,
+	BOOL, BOOL_BUTTON,
+	# Options
+	DYNAMIC_OPTIONS, FIXED_OPTIONS,
+	# Containers,
+	ARRAY, DICTIONARY,
+	# Numbers
+	NUMBER,
+	VECTOR2,
 	# Other
-	CUSTOM, BUTTON,
+	CUSTOM, BUTTON, LABEL
 }
 ## List that stores the fields for the editor
-var editor_list : Array = []
+var editor_list: Array = []
 ## Singal that notifies the visual editor block to update
 signal ui_update_needed
 signal ui_update_warning(text)
@@ -144,7 +141,7 @@ func is_expected_parent_event(event:DialogicEvent) -> bool:
 
 
 ## to be overridden by sub-classes
-## only called if can_contain_events is true. 
+## only called if can_contain_events is true.
 ## return a control node that should show on the END BRANCH node
 func get_end_branch_control() -> Control:
 	return null
@@ -197,7 +194,7 @@ func get_property_translated(property_name:String) -> String:
 	if !_translation_id.is_empty() and ProjectSettings.get_setting('dialogic/translation/enabled', false):
 		var translation = tr(get_property_translation_key(property_name))
 		# if no translation is found tr() returns the id, but we want to fallback to the original
-		return translation if translation != _translation_id else _get_property_original_translation(property_name)
+		return translation if translation != get_property_translation_key(property_name) else _get_property_original_translation(property_name)
 	else:
 		return _get_property_original_translation(property_name)
 
@@ -242,7 +239,7 @@ func _load_custom_defaults():
 ## Used by the timeline processor.
 func _test_event_string(string:String) -> bool:
 	if '#id:' in string and can_be_translated():
-		return is_valid_event(string.get_slice('#id:', 0)) 
+		return is_valid_event(string.get_slice('#id:', 0))
 	return is_valid_event(string.strip_edges())
 
 
@@ -270,12 +267,23 @@ func to_text() -> String:
 	for parameter in params.keys():
 		if (typeof(get(params[parameter].property)) != typeof(custom_defaults.get(params[parameter].property, params[parameter].default))) or \
 		(get(params[parameter].property) != custom_defaults.get(params[parameter].property, params[parameter].default)):
-			if typeof(get(params[parameter]["property"])) == TYPE_OBJECT:
-				result_string += " "+parameter+'="'+str(get(params[parameter]["property"]).resource_path)+'"'
-			elif typeof(get(params[parameter]["property"])) == TYPE_STRING:
-				result_string += " "+parameter+'="'+get(params[parameter]["property"]).replace('=', "\\=")+'"'
+			if typeof(get(params[parameter].property)) == TYPE_OBJECT:
+				result_string += " "+parameter+'="'+str(get(params[parameter].property).resource_path)+'"'
+			elif typeof(get(params[parameter].property)) == TYPE_STRING:
+				result_string += " "+parameter+'="'+get(params[parameter].property).replace('=', "\\=")+'"'
+			# if this is an enum with values provided, try to use a text alternative
+			elif typeof(get(params[parameter].property)) == TYPE_INT and params[parameter].has('suggestions'):
+				for option in params[parameter].suggestions.call().values():
+					if option.value == get(params[parameter].property):
+						if option.has('text_alt'):
+							result_string += " "+parameter+'="'+option.text_alt[0]+'"'
+						else:
+							result_string += " "+parameter+'="'+var_to_str(option.value).replace('=', "\\=")+'"'
+						break
+			elif typeof(get(params[parameter].property)) == TYPE_DICTIONARY:
+				result_string += " "+parameter+'="'+ JSON.stringify(get(params[parameter].property)).replace('=', "\\=")+'"'
 			else:
-				result_string += " "+parameter+'="'+var_to_str(get(params[parameter]["property"])).replace('=', "\\=")+'"'
+				result_string += " "+parameter+'="'+var_to_str(get(params[parameter].property)).replace('=', "\\=")+'"'
 	result_string += "]"
 	return result_string
 
@@ -288,17 +296,22 @@ func from_text(string:String) -> void:
 	for parameter in params.keys():
 		if not parameter in data:
 			continue
-		
-		#if typeof(data[parameter]) == TYPE_STRING and (data[parameter].ends_with(".dtl") or data[parameter].ends_with(".dch")):
-		if typeof(data[parameter]) == TYPE_STRING and (data[parameter].ends_with(".dch")):
-			set(params[parameter]['property'], load(data[parameter]))
-		else:
-			var value :Variant 
-			if str_to_var(data[parameter].replace('\\=', '=')) != null:
-				value = str_to_var(data[parameter].replace('\\=', '=')) 
-			else:
+
+		var value :Variant
+		match typeof(get(params[parameter].property)):
+			TYPE_STRING:
 				value = data[parameter].replace('\\=', '=')
-			set(params[parameter]['property'], value)
+			TYPE_INT:
+				if params[parameter].has('suggestions'):
+					for option in params[parameter].suggestions.call().values():
+						if option.has('text_alt') and data[parameter] in option.text_alt:
+							value = option.value
+							break
+				if !value:
+					value = float(data[parameter].replace('\\=', '='))
+			_:
+				value = str_to_var(data[parameter].replace('\\=', '='))
+		set(params[parameter].property, value)
 
 
 ## has to return true, if the given string can be interpreted as this event
@@ -309,7 +322,7 @@ func is_valid_event(string:String) -> bool:
 	return false
 
 
-## has to return true if this string seems to be a full event of this kind 
+## has to return true if this string seems to be a full event of this kind
 ## (only tested if is_valid_event() returned true)
 ## if a shortcode it used it will default to true if the string ends with ']'
 func is_string_full_event(string:String) -> bool:
@@ -345,6 +358,10 @@ func set_default_color(value) -> void:
 	event_color = DialogicUtil.get_color(value)
 
 
+## Called when the resource is assigned to a event block in the visual editor
+func _enter_visual_editor(timeline_editor:DialogicEditor) -> void:
+	pass
+
 ####################### CODE COMPLETION ########################################
 ################################################################################
 
@@ -373,7 +390,7 @@ func get_event_editor_info() -> Array:
 			editor_list.clear()
 		else:
 			editor_list = []
-		
+
 		build_event_editor()
 		return editor_list
 	else:
@@ -386,35 +403,35 @@ func build_event_editor() -> void:
 
 ## For the methods below the arguments are mostly similar:
 ## @variable: 		String name of the property this field is for
-## @condition: 		String that will be executed as an expression. If it false 
+## @condition: 		String that will be executed as an expression. If it false
 ## @editor_type: 	One of the ValueTypes (see ValueType enum). Defines type of field.
-## @left_text: 		Text that will be shown to the left of the field 
+## @left_text: 		Text that will be shown to the left of the field
 ## @right_text: 	Text that will be shown to the right of the field
-## @extra_info: 	Allows passing a lot more info to the field. 
+## @extra_info: 	Allows passing a lot more info to the field.
 ## 					What info can be passed is differnet for every field
 
 func add_header_label(text:String, condition:String = "") -> void:
 	editor_list.append({
-		"name" 			: "something", 
+		"name" 			: "something",
 		"type" 			:+ TYPE_STRING,
 		"location" 		: Location.HEADER,
 		"usage" 		: PROPERTY_USAGE_EDITOR,
-		"dialogic_type" : ValueType.LABEL,
-		"display_info"  : {"text":text}, 
+		"field_type" : ValueType.LABEL,
+		"display_info"  : {"text":text},
 		"condition" 	: condition
 		})
 
 
-func add_header_edit(variable:String, editor_type = ValueType.LABEL, left_text:String = "", right_text:String = "", extra_info:Dictionary = {}, condition:String = "") -> void:
+func add_header_edit(variable:String, editor_type = ValueType.LABEL, extra_info:Dictionary = {}, condition:String = "") -> void:
 	editor_list.append({
 		"name" 			: variable,
 		"type" 			: typeof(get(variable)),
 		"location" 		: Location.HEADER,
 		"usage" 		: PROPERTY_USAGE_DEFAULT,
-		"dialogic_type" : editor_type,
+		"field_type" : editor_type,
 		"display_info" 	: extra_info,
-		"left_text" 	: left_text,
-		"right_text" 	: right_text,
+		"left_text" 	: extra_info.get('left_text', ''),
+		"right_text" 	: extra_info.get('right_text', ''),
 		"condition" 	: condition,
 		})
 
@@ -425,22 +442,22 @@ func add_header_button(text:String, callable:Callable, tooltip:String, icon: Var
 		"type" 			: TYPE_STRING,
 		"location" 		: Location.HEADER,
 		"usage" 		: PROPERTY_USAGE_DEFAULT,
-		"dialogic_type" : ValueType.BUTTON,
+		"field_type" : ValueType.BUTTON,
 		"display_info" 	: {'text':text, 'tooltip':tooltip, 'callable':callable, 'icon':icon},
 		"condition" 	: condition,
 	})
 
 
-func add_body_edit(variable:String, editor_type = ValueType.LABEL, left_text:String= "", right_text:String="", extra_info:Dictionary = {}, condition:String = "") -> void:
+func add_body_edit(variable:String, editor_type = ValueType.LABEL, extra_info:Dictionary = {}, condition:String = "") -> void:
 	editor_list.append({
-		"name" 			: variable, 
+		"name" 			: variable,
 		"type" 			: typeof(get(variable)),
 		"location" 		: Location.BODY,
 		"usage" 		: PROPERTY_USAGE_DEFAULT,
-		"dialogic_type" : editor_type,
+		"field_type" : editor_type,
 		"display_info" 	: extra_info,
-		"left_text" 	: left_text,
-		"right_text" 	: right_text,
+		"left_text" 	: extra_info.get('left_text', ''),
+		"right_text" 	: extra_info.get('right_text', ''),
 		"condition" 	: condition,
 		})
 

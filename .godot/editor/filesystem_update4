@@ -1,1 +1,7 @@
-res://Assets/Scences/UI/Pause Menu/Pause_Menu.tscn
+res://Assets/Dialogue/TimeLines/How To Play.dtl
+res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn
+res://Assets/Dialogue/Theme/Speaker_Mode.tres
+res://Assets/Dialogue/Theme/Pixelize_Visual_Novel.tres
+res://Assets/Scences/UI/Main_Menu/main_menu.tscn
+res://Assets/Scences/Character/Character_Selector/Character_Selector.tscn
+res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn

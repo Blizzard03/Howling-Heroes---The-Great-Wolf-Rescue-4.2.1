@@ -1,6 +1,11 @@
+res://Assets/Music/Dialogues/How to Play
+res://Assets/Fonts
+res://Assets/Dialogue/Theme
+res://addons/dialogic/Other
+res://addons/dialogic
+res://Assets/Image/images/Background/Character Selector
 C:/Users/Blizzard/Documents/GitHub/Howling-Heroes---The-Great-Wolf-Rescue-4.3.1/Assets/Fonts
 res://Assets/Image/images/Cursor
-res://Assets/Fonts
 res://Assets/Image/Logo
 C:/Users/Blizzard/Documents/GitHub/Howling Heroes _ The Great Wolf Rescue
 C:/Users/Blizzard/AppData/Roaming/Godot/export_templates/4.2.1.stable.mono
@@ -15,7 +20,3 @@ res://Assets/Image/images/Background/Intro
 res://Assets/Image/Character
 res://Assets/Music
 res://Assets/Background/Main_Menu
-res://addons/dialogic/Modules/Background
-res://addons/dialogic/Modules/Character
-res://addons/dialogic/Example Assets
-res://addons/dialogic/Other

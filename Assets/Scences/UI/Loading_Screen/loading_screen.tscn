@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://cvjvmfot8bet4"]
 
 [ext_resource type="Script" path="res://Assets/Script/Controller/UI/Loading/loading_screen_Menu.gd" id="1_f1x7p"]
-[ext_resource type="Texture2D" uid="uid://cuwj7q36doaxe" path="res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg" id="2_tw8l5"]
+[ext_resource type="Texture2D" uid="uid://bs4ejchvb0yx4" path="res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg" id="2_tw8l5"]
 
 [sub_resource type="Animation" id="Animation_qogmh"]
 length = 0.001
@@ -76,8 +76,8 @@ script = ExtResource("1_f1x7p")
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_right = 6400.0
-offset_bottom = 3611.0
+offset_top = -5.5
+offset_bottom = 5.5
 grow_horizontal = 2
 grow_vertical = 2
 texture = ExtResource("2_tw8l5")
