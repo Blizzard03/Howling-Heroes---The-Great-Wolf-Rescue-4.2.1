@@ -1,6 +1,7 @@
+RichTextLabel
+Label
 TextureRect
 Button
-Label
 VBoxContainer
 MarginContainer
 TabBar
