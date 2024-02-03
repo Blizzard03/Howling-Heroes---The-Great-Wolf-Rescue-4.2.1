@@ -98,7 +98,7 @@ theme_override_fonts/italics_font = ExtResource("6_s2jgr")
 theme_override_fonts/bold_italics_font = ExtResource("7_tag5s")
 theme_override_font_sizes/normal_font_size = 18
 theme_override_styles/normal = SubResource("StyleBoxTexture_5rk1f")
-text = "Mustadhyib Al-Rasyid, a 10-year-old boy hailing from Ottawa, Canada, embodies courage, intelligence, and a genuine concern for the environment. With an athletic physique, short black hair, and brown eyes, he exudes a sense of adventure. Clad in a green adventure shirt, khaki shorts, and hiking boots, Mustadhyib is not only a fearless explorer but also a thoughtful individual who actively engages in preserving the natural world around him."
+text = "Mustadhyib Al-Rasyid, a 10-year-old boy, embodies courage, intelligence, and a genuine concern for the environment. With an athletic physique, short black hair, and brown eyes, he exudes a sense of adventure. Clad in a green adventure shirt, khaki shorts, and hiking boots, Mustadhyib is not only a fearless explorer but also a thoughtful individual who actively engages in preserving the natural world around him."
 fit_content = true
 
 [node name="Aldhiyb Alqutbiu Al-Rasyid" type="Button" parent="."]

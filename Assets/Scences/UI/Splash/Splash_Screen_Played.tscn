@@ -1,6 +1,6 @@
 [gd_scene load_steps=8 format=3 uid="uid://nxesci8m8pft"]
 
-[ext_resource type="Script" path="res://Assets/Script/Splash_Screen/Splash_Screen_Played.gd" id="1_x25oj"]
+[ext_resource type="Script" path="res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen_Played.gd" id="1_x25oj"]
 [ext_resource type="Texture2D" uid="uid://cs44rsscdpaxf" path="res://Assets/Image/Keyboard and Mouse/478401-PHEZK8-856.png" id="2_o3kdc"]
 [ext_resource type="FontFile" uid="uid://bv6xsykw7vcai" path="res://Assets/Fonts/DisposableDroidBB_bld.ttf" id="3_6teo4"]
 

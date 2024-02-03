@@ -1,0 +1,125 @@
+[gd_scene load_steps=10 format=3 uid="uid://d3i1eu4qsr25g"]
+
+[ext_resource type="Script" path="res://Assets/Script/Controller/UI/World_Map/World Map.gd" id="1_oqnmy"]
+[ext_resource type="Texture2D" uid="uid://h1p0uirdgfcq" path="res://Assets/Image/images/World Map/bluemarble-2048.png" id="1_ux8d8"]
+[ext_resource type="FontFile" uid="uid://bsmkjcem4b3i1" path="res://Assets/Fonts/DisposableDroidBB.ttf" id="2_jnec3"]
+[ext_resource type="Texture2D" uid="uid://cf3hluv2j6iuk" path="res://Assets/Image/images/Pin/Pin 2.png" id="3_hdtvj"]
+[ext_resource type="Texture2D" uid="uid://ypngbnr182p3" path="res://Assets/Image/images/Pin/Pin 1.png" id="4_yhki5"]
+[ext_resource type="Texture2D" uid="uid://chrq18ycsrh5p" path="res://Assets/Image/images/Pin/Pin 7.png" id="5_wowp6"]
+[ext_resource type="Texture2D" uid="uid://t6mrqsae1anb" path="res://Assets/Image/images/Pin/Pin 5.png" id="6_8ae6k"]
+[ext_resource type="Texture2D" uid="uid://dx16qymdpjp" path="res://Assets/Image/images/Pin/Pin 6.png" id="8_pkoc1"]
+[ext_resource type="Texture2D" uid="uid://bwcdwpn15pgq4" path="res://Assets/Image/images/Pin/Pin 4.png" id="9_hrn4m"]
+
+[node name="World-Map-Regions" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_oqnmy")
+
+[node name="World-Map" type="TextureRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_ux8d8")
+expand_mode = 1
+
+[node name="Canada" type="Button" parent="World-Map"]
+layout_mode = 0
+offset_left = 227.0
+offset_top = 46.0
+offset_right = 290.0
+offset_bottom = 142.0
+theme_override_colors/font_color = Color(0.831373, 0.45098, 0.952941, 1)
+theme_override_fonts/font = ExtResource("2_jnec3")
+theme_override_font_sizes/font_size = 24
+text = "Canada"
+icon = ExtResource("3_hdtvj")
+flat = true
+
+[node name="USA" type="Button" parent="World-Map"]
+layout_mode = 0
+offset_left = 303.0
+offset_top = 119.0
+offset_right = 441.0
+offset_bottom = 216.0
+theme_override_colors/font_color = Color(0.972549, 0.423529, 0.694118, 1)
+theme_override_fonts/font = ExtResource("2_jnec3")
+theme_override_font_sizes/font_size = 24
+text = "USA"
+icon = ExtResource("4_yhki5")
+flat = true
+
+[node name="Mexico" type="Button" parent="World-Map"]
+layout_mode = 0
+offset_left = 185.0
+offset_top = 201.0
+offset_right = 323.0
+offset_bottom = 300.0
+theme_override_colors/font_color = Color(0.917647, 0.819608, 0.0313726, 1)
+theme_override_fonts/font = ExtResource("2_jnec3")
+theme_override_font_sizes/font_size = 24
+text = "Mexico"
+icon = ExtResource("6_8ae6k")
+flat = true
+icon_alignment = 2
+
+[node name="Greenland" type="Button" parent="World-Map"]
+layout_mode = 0
+offset_left = 451.0
+offset_right = 589.0
+offset_bottom = 97.0
+theme_override_colors/font_color = Color(0.4, 1, 0.278431, 1)
+theme_override_fonts/font = ExtResource("2_jnec3")
+theme_override_font_sizes/font_size = 24
+text = "Greenland"
+icon = ExtResource("5_wowp6")
+flat = true
+
+[node name="Europe" type="Button" parent="World-Map"]
+layout_mode = 0
+offset_left = 715.0
+offset_top = 56.0
+offset_right = 881.0
+offset_bottom = 153.0
+theme_override_colors/font_color = Color(0.996078, 0.592157, 0.0627451, 1)
+theme_override_fonts/font = ExtResource("2_jnec3")
+theme_override_font_sizes/font_size = 24
+text = "Europe"
+icon = ExtResource("8_pkoc1")
+flat = true
+
+[node name="Asia" type="Button" parent="World-Map"]
+layout_mode = 0
+offset_left = 936.0
+offset_top = 97.0
+offset_right = 1102.0
+offset_bottom = 196.0
+theme_override_colors/font_color = Color(0.411765, 0.65098, 1, 1)
+theme_override_fonts/font = ExtResource("2_jnec3")
+theme_override_font_sizes/font_size = 24
+text = "Asia"
+icon = ExtResource("9_hrn4m")
+flat = true
+
+[node name="Africa" type="Button" parent="World-Map"]
+layout_mode = 0
+offset_left = 590.0
+offset_top = 275.0
+offset_right = 756.0
+offset_bottom = 374.0
+theme_override_colors/font_color = Color(0.92549, 0.819608, 0.0313726, 1)
+theme_override_fonts/font = ExtResource("2_jnec3")
+theme_override_font_sizes/font_size = 24
+text = "Africa"
+icon = ExtResource("6_8ae6k")
+flat = true
+icon_alignment = 2
+
+[connection signal="pressed" from="World-Map/Canada" to="." method="_on_canada_pressed"]
+[connection signal="pressed" from="World-Map/USA" to="." method="_on_usa_pressed"]
