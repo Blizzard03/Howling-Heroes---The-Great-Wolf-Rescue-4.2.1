@@ -1,8 +1,10 @@
-res://Assets/Scences/UI/Word map/World Map.tscn
+res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn
 res://Assets/Dialogue/Theme/Speaker_Mode.tres
 res://Assets/Dialogue/Theme/Pixelize_Visual_Novel.tres
-res://Assets/Script/Controller/UI/World_Map/World Map.gd
-res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn
+res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen_Played.gd
 res://Assets/Scences/UI/Main_Menu/main_menu.tscn
-res://Assets/Scences/Character/Character_Selector/Character_Selector.tscn
-res://Assets/Script/Controller/UI/Loading/loading_screen.gd
+res://Assets/Scences/UI/Word map/World Map.tscn
+res://Assets/Scences/UI/Splash/Splash_Screen.tscn
+res://Assets/Scences/UI/Loading_Screen/loading_screen.tscn
+res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen.gd
+res://Assets/Dialogue/TimeLines/How To Play.dtl
