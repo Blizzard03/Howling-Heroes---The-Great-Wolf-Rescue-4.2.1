@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://cajkqxvd8efkm"]
+
+[node name="Control" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="ConfirmationDialog" type="ConfirmationDialog" parent="."]
+title = ""
+initial_position = 1
+size = Vector2i(351, 106)
+visible = true
+unresizable = true
+borderless = true
+popup_window = true
+min_size = Vector2i(200, 85)
+keep_title_visible = false
+ok_button_text = "Yes"
+dialog_text = "Are You Sure Want Exit From Option Menu?
+All Setting Will be changed to Default"
+dialog_hide_on_ok = false
+dialog_close_on_escape = false
+cancel_button_text = "No"

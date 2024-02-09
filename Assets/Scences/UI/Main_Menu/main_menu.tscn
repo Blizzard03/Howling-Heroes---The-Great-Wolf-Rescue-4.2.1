@@ -1,11 +1,14 @@
-[gd_scene load_steps=9 format=3 uid="uid://capgwdnhn40bm"]
+[gd_scene load_steps=12 format=3 uid="uid://capgwdnhn40bm"]
 
 [ext_resource type="Script" path="res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd" id="1_2ju3c"]
+[ext_resource type="AudioStream" uid="uid://cp0mdrgknw0x1" path="res://Assets/Music/Start_Buton_Sound/Start_Buton_Sound.mp3" id="2_5ule3"]
 [ext_resource type="Texture2D" uid="uid://c5mw58h2ajhr" path="res://Assets/Background/Main_Menu/w2BsPEmg.jpeg" id="2_eo3sk"]
+[ext_resource type="AudioStream" uid="uid://ty2bg0clrp0t" path="res://Assets/Music/All Button/Quit_Button.mp3" id="3_15ajo"]
 [ext_resource type="Texture2D" uid="uid://c4aec0kompmv8" path="res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png" id="3_aqiha"]
 [ext_resource type="FontFile" uid="uid://daews5bmpatgf" path="res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf" id="4_c4irr"]
 [ext_resource type="FontFile" uid="uid://bv6xsykw7vcai" path="res://Assets/Fonts/DisposableDroidBB_bld.ttf" id="5_vrfc0"]
 [ext_resource type="AudioStream" uid="uid://bvycrbomgp75i" path="res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3" id="6_h2jsk"]
+[ext_resource type="FontFile" uid="uid://ccpiomxr4hnwi" path="res://Assets/Fonts/DisposableDroidBB_bldital.ttf" id="9_b4xqu"]
 
 [sub_resource type="Theme" id="Theme_oaio5"]
 
@@ -23,6 +26,14 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_2ju3c")
+
+[node name="button_sound_start" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(760, 210)
+stream = ExtResource("2_5ule3")
+
+[node name="button_sound_etc" type="AudioStreamPlayer2D" parent="."]
+position = Vector2(760, 210)
+stream = ExtResource("3_15ajo")
 
 [node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
@@ -47,15 +58,15 @@ grow_vertical = 2
 texture = ExtResource("3_aqiha")
 expand_mode = 2
 
-[node name="Label" type="Label" parent="Background"]
+[node name="Tittle 1" type="Label" parent="Background"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 offset_left = 270.0
-offset_top = 12.0
+offset_top = -10.0
 offset_right = 45.0
-offset_bottom = -519.0
+offset_bottom = -541.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.831373, 0.898039, 0.941176, 1)
@@ -64,20 +75,20 @@ theme_override_colors/font_outline_color = Color(0.14902, 0.247059, 0.290196, 1)
 theme_override_constants/shadow_offset_x = 0
 theme_override_constants/outline_size = 30
 theme_override_fonts/font = ExtResource("4_c4irr")
-theme_override_font_sizes/font_size = 85
+theme_override_font_sizes/font_size = 75
 text = "HOWLING HEROS"
 horizontal_alignment = 1
 vertical_alignment = 1
 
-[node name="Label2" type="Label" parent="Background"]
+[node name="Sub tittle" type="Label" parent="Background"]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
-offset_left = 283.0
-offset_top = 103.0
-offset_right = 58.0
-offset_bottom = -428.0
+offset_left = 419.0
+offset_top = 126.0
+offset_right = -118.0
+offset_bottom = -535.0
 grow_horizontal = 2
 grow_vertical = 2
 theme_override_colors/font_color = Color(0.831373, 0.898039, 0.941176, 1)
@@ -86,7 +97,7 @@ theme_override_colors/font_outline_color = Color(0.14902, 0.247059, 0.290196, 1)
 theme_override_constants/shadow_offset_x = 0
 theme_override_constants/outline_size = 30
 theme_override_fonts/font = ExtResource("4_c4irr")
-theme_override_font_sizes/font_size = 45
+theme_override_font_sizes/font_size = 43
 text = "THE GREAT WOLF RESCUE"
 horizontal_alignment = 1
 vertical_alignment = 1
@@ -94,23 +105,36 @@ vertical_alignment = 1
 [node name="New Game Button" type="Button" parent="Background"]
 layout_direction = 1
 layout_mode = 2
-offset_left = 755.0
-offset_top = 275.0
-offset_right = 1205.0
-offset_bottom = 340.0
+offset_left = 760.0
+offset_top = 210.0
+offset_right = 1210.0
+offset_bottom = 275.0
 theme = SubResource("Theme_oaio5")
 theme_override_fonts/font = ExtResource("5_vrfc0")
 theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxFlat_7vasw")
 text = "New Game"
 
+[node name="Credits" type="Button" parent="Background"]
+layout_direction = 1
+layout_mode = 2
+offset_left = 759.0
+offset_top = 485.0
+offset_right = 1209.0
+offset_bottom = 550.0
+theme = SubResource("Theme_oaio5")
+theme_override_fonts/font = ExtResource("5_vrfc0")
+theme_override_font_sizes/font_size = 40
+theme_override_styles/normal = SubResource("StyleBoxFlat_7vasw")
+text = "Credits"
+
 [node name="Continue Button" type="Button" parent="Background"]
 layout_direction = 1
 layout_mode = 0
-offset_left = 755.0
-offset_top = 375.0
-offset_right = 1205.0
-offset_bottom = 440.0
+offset_left = 760.0
+offset_top = 300.0
+offset_right = 1210.0
+offset_bottom = 365.0
 theme = SubResource("Theme_oaio5")
 theme_override_fonts/font = ExtResource("5_vrfc0")
 theme_override_font_sizes/font_size = 40
@@ -121,10 +145,10 @@ text = "Continue
 [node name="Option Button" type="Button" parent="Background"]
 layout_direction = 1
 layout_mode = 0
-offset_left = 757.0
-offset_top = 475.0
-offset_right = 1207.0
-offset_bottom = 540.0
+offset_left = 760.0
+offset_top = 390.0
+offset_right = 1210.0
+offset_bottom = 455.0
 theme = SubResource("Theme_oaio5")
 theme_override_fonts/font = ExtResource("5_vrfc0")
 theme_override_font_sizes/font_size = 40
@@ -147,7 +171,22 @@ text = "Quit"
 [node name="Back_Sound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_h2jsk")
 
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 1206.0
+offset_top = 681.0
+offset_right = 1267.0
+offset_bottom = 713.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_colors/font_shadow_color = Color(0.431373, 0.431373, 0.431373, 1)
+theme_override_constants/shadow_offset_x = 2
+theme_override_constants/shadow_offset_y = 1
+theme_override_fonts/font = ExtResource("9_b4xqu")
+theme_override_font_sizes/font_size = 32
+text = "V 1.0"
+
 [connection signal="pressed" from="Background/New Game Button" to="." method="_on_new_game_main_menu_buttons_pressed"]
+[connection signal="pressed" from="Background/Credits" to="." method="_on_credits_pressed"]
 [connection signal="pressed" from="Background/Continue Button" to="." method="_on_continue_main_menu_buttons_pressed"]
 [connection signal="pressed" from="Background/Option Button" to="." method="_on_options_main_menu_buttons_pressed"]
 [connection signal="pressed" from="Background/Quit Button" to="." method="_on_quit_main_menu_buttons_pressed"]

@@ -1,10 +1,11 @@
-res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn
+res://Assets/Scences/UI/Options/Options_Menu.tscn
 res://Assets/Dialogue/Theme/Speaker_Mode.tres
 res://Assets/Dialogue/Theme/Pixelize_Visual_Novel.tres
-res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen_Played.gd
+res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn
 res://Assets/Scences/UI/Main_Menu/main_menu.tscn
 res://Assets/Scences/UI/Word map/World Map.tscn
 res://Assets/Scences/UI/Splash/Splash_Screen.tscn
 res://Assets/Scences/UI/Loading_Screen/loading_screen.tscn
-res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen.gd
-res://Assets/Dialogue/TimeLines/How To Play.dtl
+res://Assets/Scences/Character/Mustadhyib Al-Rasyid.tscn
+res://Assets/Scences/UI/Credits/credit.tscn
+res://Assets/Scences/UI/Settings_Confrimation/settings_confrimation.tscn
