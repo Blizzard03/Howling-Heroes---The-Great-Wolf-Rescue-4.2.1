@@ -1,5 +1,5 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1707476703
+::res://::1707501456
 default_bus_layout.tres::AudioBusLayout::196888898710771457::1705076652::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1707208017::0::1::::<><>::
 icon.svg::CompressedTexture2D::1128398145262920593::1705076652::1706029110::1::::<><>::
@@ -1912,7 +1912,7 @@ you_lose.ogg::AudioStreamOggVorbis::8519654548441619958::1705076651::1706029104:
 you_win.ogg::AudioStreamOggVorbis::3606522633781104576::1705076651::1706029104::1::::<><>::
 ::res://Assets/Music/Start_Buton_Sound/::1706029104
 Start_Buton_Sound.mp3::AudioStreamMP3::5878018329741494476::1705076652::1706029104::1::::<><>::
-::res://Assets/Music/Warning/::1707482336
+::res://Assets/Music/Warning/::1707483518
 exclamation-101soundboards.mp3::AudioStreamMP3::7138985905277861131::1707482270::1707483518::1::::<><>::
 ::res://Assets/Scences/::1705246784
 ::res://Assets/Scences/Character/::1707482007
@@ -1935,8 +1935,8 @@ main_menu.tscn::PackedScene::4804210801108702186::1707482007::0::1::::<><>::res:
 Options_Menu.tscn::PackedScene::1560212918064034487::1707482007::0::1::::<><>::uid://ca37ndc8femkj::::res://Assets/Image/images/Background/Option/Settings.jpeg
 ::res://Assets/Scences/UI/Pause Menu/::1705739106
 Pause_Menu.tscn::PackedScene::1060863744242428003::1705739106::0::1::::<><>::uid://c5d6dphqxcljj::::res://Assets/Fonts/DisposableDroidBB.ttf
-::res://Assets/Scences/UI/Settings_Confrimation/::1707483517
-settings_confrimation.tscn::PackedScene::4792057750461397828::1707483517::0::1::::<><>::
+::res://Assets/Scences/UI/Settings_Confrimation/::1707484053
+settings_confrimation.tscn::PackedScene::4792057750461397828::1707484053::0::1::::<><>::
 ::res://Assets/Scences/UI/Splash/::1707482007
 Splash_Screen.tscn::PackedScene::2923839636953089034::1707482007::0::1::::<><>::res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen.gd<>uid://d16hkoquk0jh::::res://Assets/Image/Splash Screen/Splash Screen.png
 Splash_Screen_Played.tscn::PackedScene::960210786821005025::1707482007::0::1::::<><>::res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen_Played.gd<>uid://cs44rsscdpaxf::::res://Assets/Image/Keyboard and Mouse/478401-PHEZK8-856.png<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf

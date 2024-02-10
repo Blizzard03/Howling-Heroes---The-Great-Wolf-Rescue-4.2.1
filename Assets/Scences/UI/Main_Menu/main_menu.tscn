@@ -1,4 +1,4 @@
-[gd_scene load_steps=12 format=3 uid="uid://capgwdnhn40bm"]
+[gd_scene load_steps=15 format=3 uid="uid://capgwdnhn40bm"]
 
 [ext_resource type="Script" path="res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd" id="1_2ju3c"]
 [ext_resource type="AudioStream" uid="uid://cp0mdrgknw0x1" path="res://Assets/Music/Start_Buton_Sound/Start_Buton_Sound.mp3" id="2_5ule3"]
@@ -9,6 +9,9 @@
 [ext_resource type="FontFile" uid="uid://bv6xsykw7vcai" path="res://Assets/Fonts/DisposableDroidBB_bld.ttf" id="5_vrfc0"]
 [ext_resource type="AudioStream" uid="uid://bvycrbomgp75i" path="res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3" id="6_h2jsk"]
 [ext_resource type="FontFile" uid="uid://ccpiomxr4hnwi" path="res://Assets/Fonts/DisposableDroidBB_bldital.ttf" id="9_b4xqu"]
+[ext_resource type="Texture2D" uid="uid://bm28mptpxjf7k" path="res://Assets/Image/images/Buttons/Discord.png" id="10_wohku"]
+[ext_resource type="Texture2D" uid="uid://dyvag8ysn7o6g" path="res://Assets/Image/images/Buttons/Github.png" id="11_d0eax"]
+[ext_resource type="Texture2D" uid="uid://ydktuoqad1lc" path="res://Assets/Image/images/Buttons/FA.png" id="12_qpg2x"]
 
 [sub_resource type="Theme" id="Theme_oaio5"]
 
@@ -184,6 +187,39 @@ theme_override_constants/shadow_offset_y = 1
 theme_override_fonts/font = ExtResource("9_b4xqu")
 theme_override_font_sizes/font_size = 32
 text = "V 1.0"
+
+[node name="Discord" type="Button" parent="."]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+offset_left = 1144.0
+offset_top = 656.0
+offset_right = 1208.0
+offset_bottom = 720.0
+icon = ExtResource("10_wohku")
+flat = true
+expand_icon = true
+
+[node name="Github" type="Button" parent="."]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+offset_left = 1069.0
+offset_top = 656.0
+offset_right = 1133.0
+offset_bottom = 720.0
+icon = ExtResource("11_d0eax")
+flat = true
+expand_icon = true
+
+[node name="Furafinity" type="Button" parent="."]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+offset_left = 994.0
+offset_top = 656.0
+offset_right = 1058.0
+offset_bottom = 720.0
+icon = ExtResource("12_qpg2x")
+flat = true
+expand_icon = true
 
 [connection signal="pressed" from="Background/New Game Button" to="." method="_on_new_game_main_menu_buttons_pressed"]
 [connection signal="pressed" from="Background/Credits" to="." method="_on_credits_pressed"]
