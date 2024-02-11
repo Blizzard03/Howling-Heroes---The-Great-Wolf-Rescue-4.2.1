@@ -11,3 +11,22 @@
 ## **Discord Server**
 [2]: https://discord.gg/t5NPDvTZKd
 [<img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/6257d23c5fb25be7e0b6e220_Open%20Source%20Projects%20_%20Discord-7.svg" width="135px" height="100%">][2]
+
+## **Program Used**
+
+1. **Godot 4.2.1**
+
+    <img src="https://godotengine.org/assets/logo_dark.svg" width="128"/>
+
+   
+
+3. **Adobe Photoshop CC 2024**
+  
+   <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" width="128px" height= "45px"/> 
+
+   
+   
+6. Adobe Premiere Pro CC 2024
+
+   <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" width="128px" height="45px"/>
+  
