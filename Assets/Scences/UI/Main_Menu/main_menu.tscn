@@ -227,4 +227,6 @@ expand_icon = true
 [connection signal="pressed" from="Background/Continue Button" to="." method="_on_continue_main_menu_buttons_pressed"]
 [connection signal="pressed" from="Background/Option Button" to="." method="_on_options_main_menu_buttons_pressed"]
 [connection signal="pressed" from="Background/Quit Button" to="." method="_on_quit_main_menu_buttons_pressed"]
+[connection signal="pressed" from="Discord" to="." method="_on_discord_pressed"]
+[connection signal="pressed" from="Github" to="." method="_on_github_pressed"]
 [connection signal="pressed" from="Furafinity" to="." method="_on_furafinity_pressed"]

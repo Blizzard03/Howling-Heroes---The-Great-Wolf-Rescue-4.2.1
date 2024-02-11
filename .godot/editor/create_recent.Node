@@ -1,9 +1,10 @@
-AudioStreamPlayer
+Button
 Label
+TextureRect
+AudioStreamPlayer
 AudioStreamPlayer2D
 LinkButton
 HBoxContainer
-Button
 ConfirmationDialog
 PopupMenu
 Popup
@@ -11,5 +12,3 @@ HSlider
 CheckButton
 OptionButton
 TabBar
-TabContainer
-GridContainer

@@ -1,6 +1,32 @@
+class_name Option_Menu
 extends Control
 
+#Button Sound
 @onready var button_sound = $Button
+
+#Video Settings
+	#Display Mode
+	#@onready var Display_Mode = pass
+	
+	#V_Sync
+	#@onready var V_Sync = 
+	
+#Audio Settings
+	#Master Volume Slider
+	#@onready var Master_Volume = 
+	
+	#Master Volume Max Label
+	#@onready Max_Label_Master_Volume = 
+	
+	#Music Volume Slider
+	#Music Volume Max Label
+	
+	#Voice Volume Slider
+	#Voice Volume Max Label
+	
+	#Sound Effect Volume Slider
+	#Sound Effect Volume Max Label
+
 
 func _on_back_button_pressed():
 	button_sound.play()

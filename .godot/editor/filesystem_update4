@@ -1,17 +1,11 @@
-res://Assets/Scences/UI/Main_Menu/main_menu.tscn
+res://Assets/Scences/UI/Exit_Confirmation/Exit_Confirmation.tscn
 res://Assets/Dialogue/Theme/Speaker_Mode.tres
 res://Assets/Dialogue/Theme/Pixelize_Visual_Novel.tres
-res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd
-res://Assets/Scences/UI/Exit_Confirmation/Exit_Confirmation.tscn
-res://Assets/Scences/UI/Settings_Confrimation/settings_confrimation.tscn
-res://Assets/Scences/UI/Options/Options_Menu.tscn
-res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn
-res://Assets/Scences/UI/Word map/World Map.tscn
-res://Assets/Scences/UI/Splash/Splash_Screen.tscn
-res://Assets/Scences/UI/Loading_Screen/loading_screen.tscn
-res://Assets/Scences/Character/Mustadhyib Al-Rasyid.tscn
-res://Assets/Scences/UI/Credits/credit.tscn
-res://Assets/Script/Controller/UI/Options_Menu/Options_Menu.gd
-res://Assets/Script/Controller/UI/Settings_Confirmation/settings_confrimation.gd
-res://Assets/Script/Controller/UI/Loading/loading_screen_Menu.gd
+res://Assets/Theme/Dialouge/Exit_Confirmation.tres
 res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd
+res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn
+res://Assets/Scences/UI/Options/Options_Menu.tscn
+res://Assets/Scences/UI/Credits/credit.tscn
+res://Assets/Scences/UI/Main_Menu/main_menu.tscn
+res://Assets/Script/Controller/UI/Options_Menu/Options_Menu.gd
+res://Assets/Script/Controller/Save/save_setings.gd

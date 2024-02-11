@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=3 uid="uid://buos6ae1qvw78"]
+[gd_scene load_steps=6 format=3 uid="uid://buos6ae1qvw78"]
 
 [ext_resource type="Script" path="res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd" id="1_fief4"]
 [ext_resource type="Theme" uid="uid://br2uoqpi38ygc" path="res://Assets/Theme/Dialouge/Exit_Confirmation.tres" id="2_0k7ty"]
 [ext_resource type="AudioStream" uid="uid://c8ygb4nqbs03p" path="res://Assets/Music/Warning/exclamation-101soundboards.mp3" id="3_ct1th"]
 [ext_resource type="AudioStream" uid="uid://ty2bg0clrp0t" path="res://Assets/Music/All Button/Quit_Button.mp3" id="4_87xpo"]
+[ext_resource type="AudioStream" uid="uid://bpkfmkyhxykdk" path="res://Assets/Music/Dialogues/Good bye/Goodbye.mp3" id="5_5hn7p"]
 
 [node name="ExitConfirmation" type="Control"]
 layout_mode = 3
@@ -25,6 +26,7 @@ max_size = Vector2i(1280, 720)
 theme = ExtResource("2_0k7ty")
 ok_button_text = "Yes"
 dialog_text = " Are you sure want exit the game?"
+dialog_hide_on_ok = false
 dialog_close_on_escape = false
 cancel_button_text = "No"
 
@@ -37,5 +39,11 @@ stream = ExtResource("4_87xpo")
 bus = &"Sound Effects"
 area_mask = 2
 
+[node name="Bye" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("5_5hn7p")
+bus = &"Voices"
+area_mask = 2
+
 [connection signal="canceled" from="ConfirmationDialog" to="." method="_on_confirmation_dialog_canceled"]
 [connection signal="confirmed" from="ConfirmationDialog" to="." method="_on_confirmation_dialog_confirmed"]
+[connection signal="finished" from="Bye" to="." method="_on_bye_finished"]
