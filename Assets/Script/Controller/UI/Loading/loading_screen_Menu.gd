@@ -4,7 +4,7 @@ signal loading_screen_has_full_coverage
 
 @onready var animationPlayer : AnimationPlayer = $AnimationPlayer
 @onready var progressBar : ProgressBar =$TextureRect/ProgressBar
-
+@onready var loading_text : Label=$Loading
 func _update_progress_bar(new_value : float) -> void:
 	progressBar.set_value_no_signal(new_value*100)
 	

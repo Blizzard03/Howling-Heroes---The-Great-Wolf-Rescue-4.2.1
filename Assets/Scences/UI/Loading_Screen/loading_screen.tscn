@@ -1,7 +1,8 @@
-[gd_scene load_steps=7 format=3 uid="uid://cvjvmfot8bet4"]
+[gd_scene load_steps=8 format=3 uid="uid://cvjvmfot8bet4"]
 
 [ext_resource type="Script" path="res://Assets/Script/Controller/UI/Loading/loading_screen_Menu.gd" id="1_f1x7p"]
 [ext_resource type="Texture2D" uid="uid://bs4ejchvb0yx4" path="res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg" id="2_tw8l5"]
+[ext_resource type="FontFile" uid="uid://ccpiomxr4hnwi" path="res://Assets/Fonts/DisposableDroidBB_bldital.ttf" id="3_aayw6"]
 
 [sub_resource type="Animation" id="Animation_qogmh"]
 length = 0.001
@@ -14,6 +15,17 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "handle_modes": PackedInt32Array(0),
 "points": PackedFloat32Array(0, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Loading:position:x")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0),
+"points": PackedFloat32Array(66, -0.25, 0, 0.25, 0),
 "times": PackedFloat32Array(0)
 }
 
@@ -29,6 +41,17 @@ tracks/0/loop_wrap = true
 tracks/0/keys = {
 "handle_modes": PackedInt32Array(0, 0),
 "points": PackedFloat32Array(0, -0.25, 0, 0.25, 0, 1280, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.8)
+}
+tracks/1/type = "bezier"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("Loading:position:x")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(66, -0.25, 0, 0.25, 0, 1345, -0.25, 0, 0.25, 0),
 "times": PackedFloat32Array(0, 0.8)
 }
 
@@ -60,6 +83,17 @@ tracks/1/keys = {
 "method": &"emit_signal"
 }]
 }
+tracks/2/type = "bezier"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("Loading:position:x")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"handle_modes": PackedInt32Array(0, 0),
+"points": PackedFloat32Array(1345, -0.25, 0, 0.25, 0, 66, -0.25, 0, 0.25, 0),
+"times": PackedFloat32Array(0, 0.8)
+}
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_fwb7j"]
 _data = {
@@ -74,7 +108,7 @@ script = ExtResource("1_f1x7p")
 
 [node name="TextureRect" type="TextureRect" parent="."]
 custom_minimum_size = Vector2(1280, 720)
-offset_right = 1280.0
+offset_right = 1280.01
 offset_bottom = 720.0
 texture = ExtResource("2_tw8l5")
 expand_mode = 1
@@ -96,3 +130,14 @@ libraries = {
 "": SubResource("AnimationLibrary_fwb7j")
 }
 autoplay = "start_load"
+
+[node name="Loading" type="Label" parent="."]
+offset_left = 66.0
+offset_top = 649.0
+offset_right = 149.0
+offset_bottom = 669.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
+theme_override_fonts/font = ExtResource("3_aayw6")
+theme_override_font_sizes/font_size = 20
+text = "Loading...."

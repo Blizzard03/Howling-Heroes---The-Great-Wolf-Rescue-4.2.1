@@ -30,14 +30,6 @@ grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_2ju3c")
 
-[node name="button_sound_start" type="AudioStreamPlayer2D" parent="."]
-position = Vector2(760, 210)
-stream = ExtResource("2_5ule3")
-
-[node name="button_sound_etc" type="AudioStreamPlayer2D" parent="."]
-position = Vector2(760, 210)
-stream = ExtResource("3_15ajo")
-
 [node name="Background" type="TextureRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
@@ -171,8 +163,17 @@ theme_override_font_sizes/font_size = 40
 theme_override_styles/normal = SubResource("StyleBoxFlat_7vasw")
 text = "Quit"
 
+[node name="StartBtn" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("2_5ule3")
+bus = &"Sound Effects"
+
+[node name="Normal_button" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_15ajo")
+bus = &"Sound Effects"
+
 [node name="Back_Sound" type="AudioStreamPlayer" parent="."]
 stream = ExtResource("6_h2jsk")
+bus = &"Sound Effects"
 
 [node name="Label" type="Label" parent="."]
 layout_mode = 0
@@ -226,3 +227,4 @@ expand_icon = true
 [connection signal="pressed" from="Background/Continue Button" to="." method="_on_continue_main_menu_buttons_pressed"]
 [connection signal="pressed" from="Background/Option Button" to="." method="_on_options_main_menu_buttons_pressed"]
 [connection signal="pressed" from="Background/Quit Button" to="." method="_on_quit_main_menu_buttons_pressed"]
+[connection signal="pressed" from="Furafinity" to="." method="_on_furafinity_pressed"]

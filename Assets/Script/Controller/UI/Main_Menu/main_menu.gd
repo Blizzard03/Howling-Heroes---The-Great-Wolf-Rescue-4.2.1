@@ -1,8 +1,9 @@
 extends Control
 
 @onready var backsound = $Back_Sound
-@onready var startbtn = $button_sound_start
-@onready var btnsnd = $button_sound_etc
+@onready var startbtn = $StartBtn
+@onready var normalbutton = $Normal_button
+
 func _ready():
 	backsound.play()
 	
@@ -16,12 +17,18 @@ func _on_continue_main_menu_buttons_pressed():
 
 
 func _on_options_main_menu_buttons_pressed():
-	LoadingScreen.load_scence("")
-
+	
+	LoadingScreen.load_scence("res://Assets/Scences/UI/Options/Options_Menu.tscn")
+	normalbutton.play()
 
 func _on_quit_main_menu_buttons_pressed():
 	get_tree().change_scene_to_file("res://Assets/Scences/UI/Exit_Confirmation/Exit_Confirmation.tscn")
-	btnsnd.play()
+	normalbutton.play()
 
 func _on_credits_pressed():
 	pass # Replace with function body.
+
+
+func _on_furafinity_pressed():
+	
+	OS.shell_open("")

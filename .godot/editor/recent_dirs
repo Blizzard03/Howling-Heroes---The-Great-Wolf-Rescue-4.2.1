@@ -1,6 +1,9 @@
+res://Assets/Script/Controller/UI/Settings_Confirmation
+res://Assets/Script/Controller/UI/Options_Menu
+res://Assets/Fonts
+res://Assets/Theme/Dialouge
 res://Assets/Scences/UI/Main_Menu
 res://Assets/Scences/UI/Settings_Confrimation
-res://Assets/Fonts
 res://Assets/Scences/UI/Credits
 res://Assets/Image/images/Pin
 res://Assets/Script/Controller/UI/World_Map
@@ -17,6 +20,3 @@ res://Assets/Image/Logo
 C:/Users/Blizzard/Documents/GitHub/Howling Heroes _ The Great Wolf Rescue
 C:/Users/Blizzard/AppData/Roaming/Godot/export_templates/4.2.1.stable.mono
 res://Assets/Background/Loading_Screen
-res://Assets/Music/How_To_Play
-res://Assets/Image/images/Background/Info_Intro
-res://Assets/Dialogue/TimeLines

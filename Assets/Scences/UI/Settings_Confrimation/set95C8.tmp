@@ -19,6 +19,7 @@ title = ""
 initial_position = 1
 size = Vector2i(813, 175)
 visible = true
+unresizable = true
 borderless = true
 popup_window = true
 min_size = Vector2i(200, 85)
@@ -27,8 +28,8 @@ theme = ExtResource("1_wyah5")
 ok_button_text = "Yes"
 dialog_text = "Are You Sure Want Exit From Option Menu?
 All Setting Will be changed to Default"
+dialog_hide_on_ok = false
 dialog_close_on_escape = false
-dialog_autowrap = true
 cancel_button_text = "No"
 
 [node name="buton sound" type="AudioStreamPlayer2D" parent="."]

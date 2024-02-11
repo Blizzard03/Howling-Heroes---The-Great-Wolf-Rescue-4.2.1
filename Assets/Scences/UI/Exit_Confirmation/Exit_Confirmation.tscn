@@ -1,11 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://buos6ae1qvw78"]
+[gd_scene load_steps=5 format=3 uid="uid://buos6ae1qvw78"]
 
 [ext_resource type="Script" path="res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd" id="1_fief4"]
-[ext_resource type="FontFile" uid="uid://c5d6dphqxcljj" path="res://Assets/Fonts/DisposableDroidBB.ttf" id="2_lyy30"]
-
-[sub_resource type="Theme" id="Theme_m5iot"]
-default_font = ExtResource("2_lyy30")
-default_font_size = 45
+[ext_resource type="Theme" uid="uid://br2uoqpi38ygc" path="res://Assets/Theme/Dialouge/Exit_Confirmation.tres" id="2_0k7ty"]
+[ext_resource type="AudioStream" uid="uid://c8ygb4nqbs03p" path="res://Assets/Music/Warning/exclamation-101soundboards.mp3" id="3_ct1th"]
+[ext_resource type="AudioStream" uid="uid://ty2bg0clrp0t" path="res://Assets/Music/All Button/Quit_Button.mp3" id="4_87xpo"]
 
 [node name="ExitConfirmation" type="Control"]
 layout_mode = 3
@@ -24,11 +22,20 @@ visible = true
 unresizable = true
 borderless = true
 max_size = Vector2i(1280, 720)
-theme = SubResource("Theme_m5iot")
+theme = ExtResource("2_0k7ty")
 ok_button_text = "Yes"
 dialog_text = " Are you sure want exit the game?"
-dialog_autowrap = true
+dialog_close_on_escape = false
 cancel_button_text = "No"
+
+[node name="Warning" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("3_ct1th")
+bus = &"Sound Effects"
+
+[node name="Button_sound" type="AudioStreamPlayer2D" parent="."]
+stream = ExtResource("4_87xpo")
+bus = &"Sound Effects"
+area_mask = 2
 
 [connection signal="canceled" from="ConfirmationDialog" to="." method="_on_confirmation_dialog_canceled"]
 [connection signal="confirmed" from="ConfirmationDialog" to="." method="_on_confirmation_dialog_confirmed"]
