@@ -1,11 +1,9 @@
-res://Assets/Scences/UI/Exit_Confirmation/Exit_Confirmation.tscn
+res://Assets/Scences/UI/Options/Options_Menu.tscn
 res://Assets/Dialogue/Theme/Speaker_Mode.tres
 res://Assets/Dialogue/Theme/Pixelize_Visual_Novel.tres
-res://Assets/Theme/Dialouge/Exit_Confirmation.tres
-res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd
+res://Assets/Script/Controller/Save/Global_Settings/Global_Settings.gd
+res://Assets/Script/Controller/UI/Options_Menu/Options_Menu.gd
 res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn
-res://Assets/Scences/UI/Options/Options_Menu.tscn
 res://Assets/Scences/UI/Credits/credit.tscn
 res://Assets/Scences/UI/Main_Menu/main_menu.tscn
-res://Assets/Script/Controller/UI/Options_Menu/Options_Menu.gd
-res://Assets/Script/Controller/Save/save_setings.gd
+res://Assets/Script/Controller/UI/Settings_Confirmation/settings_confrimation.gd

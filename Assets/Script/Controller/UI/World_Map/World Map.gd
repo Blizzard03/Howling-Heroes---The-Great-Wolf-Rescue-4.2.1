@@ -10,10 +10,11 @@ extends Control
 @onready var Africa = $"World-Map/Africa"
 
 
-	
 func _on_canada_pressed():
 	print(Canada.get_text())
 
 
 func _on_usa_pressed():
 	pass # Replace with function body.
+	
+	

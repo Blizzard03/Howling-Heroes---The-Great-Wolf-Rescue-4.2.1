@@ -1,9 +1,9 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1707654174
+::res://::1707676105
 default_bus_layout.tres::AudioBusLayout::196888898710771457::1705076652::0::1::::<><>::
 export_presets.cfg::TextFile::-1::1707208017::0::1::::<><>::
 icon.svg::CompressedTexture2D::1128398145262920593::1705076652::1706029110::1::::<><>::
-README.md::TextFile::-1::1707555796::0::1::::<><>::
+README.md::TextFile::-1::1707663969::0::1::::<><>::
 ::res://addons/::1706028574
 ::res://addons/dialogic/::1706028575
 plugin.cfg::TextFile::-1::1706027675::0::1::::<><>::
@@ -589,9 +589,9 @@ w2BsPEmg.jpeg::CompressedTexture2D::203078538310153075::1705076648::1706029121::
 ::res://Assets/Dialogue/::1706068926
 ::res://Assets/Dialogue/Character/::1706070723
 Mr_Wolf.dch::Resource::-1::1706070723::0::1::::<><>::
-::res://Assets/Dialogue/Theme/::1707654189
-Pixelize_Visual_Novel.tres::Resource/DialogicStyle::4396765608337922874::1707654189::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
-Speaker_Mode.tres::Resource/DialogicStyle::5794453110338011654::1707654189::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+::res://Assets/Dialogue/Theme/::1707671689
+Pixelize_Visual_Novel.tres::Resource/DialogicStyle::4396765608337922874::1707671689::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+Speaker_Mode.tres::Resource/DialogicStyle::5794453110338011654::1707671689::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
 ::res://Assets/Dialogue/TimeLines/::1707368344
 How To Play.dtl::Resource::-1::1707368344::0::1::::<><>::
 Intro.dtl::Resource::-1::1705076648::0::1::::<><>::
@@ -1933,33 +1933,37 @@ Bridge_Stone_Forest.tscn::PackedScene::5895699722967377137::1705076652::0::1::::
 ::res://Assets/Scences/Location/How_to_Play/::1705076652
 How_To_Play.tscn::PackedScene::5079252934453415338::1705076652::0::1::::<><>::
 ::res://Assets/Scences/UI/::1707481958
-::res://Assets/Scences/UI/Credits/::1707657434
-credit.tscn::PackedScene::2507636290248716165::1707657434::0::1::::<><>::uid://d4bb46msror13::::res://Assets/Image/images/Credits/pixel_art_A_breathtaking_lands.jpeg<>uid://74m415i5q2nb::::res://Assets/Fonts/Wolf Moon.ttf<>uid://2gbyqhhtj8i7::::res://Assets/Fonts/Roboto/Roboto-BoldItalic.ttf<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
-::res://Assets/Scences/UI/Exit_Confirmation/::1707655269
-Exit_Confirmation.tscn::PackedScene::3820247117874205729::1707655269::0::1::::<><>::res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd<>uid://br2uoqpi38ygc::::res://Assets/Theme/Dialouge/Exit_Confirmation.tres<>uid://c8ygb4nqbs03p::::res://Assets/Music/Warning/exclamation-101soundboards.mp3<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://bpkfmkyhxykdk::::res://Assets/Music/Dialogues/Good bye/Goodbye.mp3
+::res://Assets/Scences/UI/Credits/::1707675304
+credit.tscn::PackedScene::2507636290248716165::1707675304::0::1::::<><>::uid://d4bb46msror13::::res://Assets/Image/images/Credits/pixel_art_A_breathtaking_lands.jpeg<>uid://74m415i5q2nb::::res://Assets/Fonts/Wolf Moon.ttf<>uid://2gbyqhhtj8i7::::res://Assets/Fonts/Roboto/Roboto-BoldItalic.ttf<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
+::res://Assets/Scences/UI/Exit_Confirmation/::1707661738
+Exit_Confirmation.tscn::PackedScene::3820247117874205729::1707661738::0::1::::<><>::res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd<>uid://br2uoqpi38ygc::::res://Assets/Theme/Dialouge/Exit_Confirmation.tres<>uid://c8ygb4nqbs03p::::res://Assets/Music/Warning/exclamation-101soundboards.mp3<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://bpkfmkyhxykdk::::res://Assets/Music/Dialogues/Good bye/Goodbye.mp3
 ::res://Assets/Scences/UI/Loading_Screen/::1707649170
 loading_screen.tscn::PackedScene::6266683255097803947::1707649170::0::1::::<><>::res://Assets/Script/Controller/UI/Loading/loading_screen_Menu.gd<>uid://bs4ejchvb0yx4::::res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg<>uid://ccpiomxr4hnwi::::res://Assets/Fonts/DisposableDroidBB_bldital.ttf
-::res://Assets/Scences/UI/Main_Menu/::1707655269
-main_menu.tscn::PackedScene::4804210801108702186::1707655269::0::1::::<><>::res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd<>uid://cp0mdrgknw0x1::::res://Assets/Music/Start_Buton_Sound/Start_Buton_Sound.mp3<>uid://c5mw58h2ajhr::::res://Assets/Background/Main_Menu/w2BsPEmg.jpeg<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://c4aec0kompmv8::::res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png<>uid://daews5bmpatgf::::res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf<>uid://bvycrbomgp75i::::res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3<>uid://ccpiomxr4hnwi::::res://Assets/Fonts/DisposableDroidBB_bldital.ttf<>uid://bm28mptpxjf7k::::res://Assets/Image/images/Buttons/Discord.png<>uid://dyvag8ysn7o6g::::res://Assets/Image/images/Buttons/Github.png<>uid://ydktuoqad1lc::::res://Assets/Image/images/Buttons/FA.png
-::res://Assets/Scences/UI/Options/::1707658216
-Options_Menu.tscn::PackedScene::1560212918064034487::1707658216::0::1::::<><>::res://Assets/Script/Controller/UI/Options_Menu/Options_Menu.gd<>uid://ca37ndc8femkj::::res://Assets/Image/images/Background/Option/Settings.jpeg<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
+::res://Assets/Scences/UI/Main_Menu/::1707675304
+main_menu.tscn::PackedScene::4804210801108702186::1707675304::0::1::::<><>::res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd<>uid://cp0mdrgknw0x1::::res://Assets/Music/Start_Buton_Sound/Start_Buton_Sound.mp3<>uid://c5mw58h2ajhr::::res://Assets/Background/Main_Menu/w2BsPEmg.jpeg<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://c4aec0kompmv8::::res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png<>uid://daews5bmpatgf::::res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf<>uid://bvycrbomgp75i::::res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3<>uid://ccpiomxr4hnwi::::res://Assets/Fonts/DisposableDroidBB_bldital.ttf<>uid://bm28mptpxjf7k::::res://Assets/Image/images/Buttons/Discord.png<>uid://dyvag8ysn7o6g::::res://Assets/Image/images/Buttons/Github.png<>uid://ydktuoqad1lc::::res://Assets/Image/images/Buttons/FA.png
+::res://Assets/Scences/UI/Options/::1707675689
+Options_Menu.tscn::PackedScene::1560212918064034487::1707675689::0::1::::<><>::res://Assets/Script/Controller/UI/Options_Menu/Options_Menu.gd<>uid://ca37ndc8femkj::::res://Assets/Image/images/Background/Option/Settings.jpeg<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
 ::res://Assets/Scences/UI/Pause Menu/::1705739106
 Pause_Menu.tscn::PackedScene::1060863744242428003::1705739106::0::1::::<><>::uid://c5d6dphqxcljj::::res://Assets/Fonts/DisposableDroidBB.ttf
 ::res://Assets/Scences/UI/Settings_Confrimation/::1707649170
 settings_confrimation.tscn::PackedScene::4792057750461397828::1707649170::0::1::::<><>::res://Assets/Script/Controller/UI/Settings_Confirmation/settings_confrimation.gd<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://c8ygb4nqbs03p::::res://Assets/Music/Warning/exclamation-101soundboards.mp3<>uid://br2uoqpi38ygc::::res://Assets/Theme/Dialouge/Exit_Confirmation.tres
-::res://Assets/Scences/UI/Splash/::1707655269
+::res://Assets/Scences/UI/Splash/::1707675304
 Splash_Screen.tscn::PackedScene::2923839636953089034::1707649170::0::1::::<><>::res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen.gd<>uid://d16hkoquk0jh::::res://Assets/Image/Splash Screen/Splash Screen.png
-Splash_Screen_Played.tscn::PackedScene::960210786821005025::1707655269::0::1::::<><>::res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen_Played.gd<>uid://cs44rsscdpaxf::::res://Assets/Image/Keyboard and Mouse/478401-PHEZK8-856.png<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf
+Splash_Screen_Played.tscn::PackedScene::960210786821005025::1707675304::0::1::::<><>::res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen_Played.gd<>uid://cs44rsscdpaxf::::res://Assets/Image/Keyboard and Mouse/478401-PHEZK8-856.png<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf
 ::res://Assets/Scences/UI/Word map/::1707649170
 World Map.tscn::PackedScene::9142651575982287958::1707649170::0::1::::<><>::res://Assets/Script/Controller/UI/World_Map/World Map.gd<>uid://h1p0uirdgfcq::::res://Assets/Image/images/World Map/bluemarble-2048.png<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf<>uid://cf3hluv2j6iuk::::res://Assets/Image/images/Pin/Pin 2.png<>uid://ypngbnr182p3::::res://Assets/Image/images/Pin/Pin 1.png<>uid://chrq18ycsrh5p::::res://Assets/Image/images/Pin/Pin 7.png<>uid://t6mrqsae1anb::::res://Assets/Image/images/Pin/Pin 5.png<>uid://dx16qymdpjp::::res://Assets/Image/images/Pin/Pin 6.png<>uid://bwcdwpn15pgq4::::res://Assets/Image/images/Pin/Pin 4.png
 ::res://Assets/Script/::1706688558
 ::res://Assets/Script/Class/::1706688558
 ::res://Assets/Script/Controller/::1707658483
-::res://Assets/Script/Controller/Save/::1707658515
-save_setinggs.gd::GDScript::-1::1707658515::0::1::::<>Node<>::
+::res://Assets/Script/Controller/Save/::1707666880
+::res://Assets/Script/Controller/Save/Global_Settings/::1707675689
+Global_Settings.gd::GDScript::-1::1707675689::0::1::::<>Node<>::
+::res://Assets/Script/Controller/Save/Player/::1707666851
+::res://Assets/Script/Controller/Save/Settings/::1707675057
+save_settings.gd::GDScript::-1::1707675057::0::1::::<>Node<>::
 ::res://Assets/Script/Controller/UI/::1707635182
-::res://Assets/Script/Controller/UI/Character_Selector/::1705076652
-Selector_Player.gd::GDScript::-1::1705076652::0::1::::<>Node2D<>::
+::res://Assets/Script/Controller/UI/Character_Selector/::1707664164
+Selector_Player.gd::GDScript::-1::1707664164::0::1::::<>Node2D<>::
 ::res://Assets/Script/Controller/UI/Exit_Confirmation/::1707654543
 Exit Confirmation.gd::GDScript::-1::1707654543::0::1::::<>Control<>::
 ::res://Assets/Script/Controller/UI/Loading/::1707636328
@@ -1967,17 +1971,18 @@ loading_screen.gd::GDScript::-1::1707472260::0::1::::<>Node<>::
 loading_screen_Menu.gd::GDScript::-1::1707636328::0::1::::<>CanvasLayer<>::
 ::res://Assets/Script/Controller/UI/Main_Menu/::1707651142
 main_menu.gd::GDScript::-1::1707651142::0::1::::Main_Menu<>Control<>::
-::res://Assets/Script/Controller/UI/Options_Menu/::1707658216
-Options_Menu.gd::GDScript::-1::1707658216::0::1::::Option_Menu<>Control<>::
+::res://Assets/Script/Controller/UI/Options_Menu/::1707675343
+Options_Menu.gd::GDScript::-1::1707675343::0::1::::Option_Menu<>Control<>::
 ::res://Assets/Script/Controller/UI/Settings_Confirmation/::1707641521
 settings_confrimation.gd::GDScript::-1::1707641521::0::1::::<>Control<>::
 ::res://Assets/Script/Controller/UI/Splash_Screen/::1707365144
 Splash_Screen.gd::GDScript::-1::1707365037::0::1::::<>Node<>::
 Splash_Screen_Played.gd::GDScript::-1::1707365144::0::1::::<>Node<>::
-::res://Assets/Script/Controller/UI/World_Map/::1706708779
-World Map.gd::GDScript::-1::1706708779::0::1::::World_Map<>Control<>::
+::res://Assets/Script/Controller/UI/World_Map/::1707665073
+World Map.gd::GDScript::-1::1707665073::0::1::::World_Map<>Control<>::
 ::res://Assets/Theme/::1707622204
 ::res://Assets/Theme/Dialouge/::1707654189
 Exit_Confirmation.tres::Theme::3636609429817157686::1707654189::0::1::::<><>::uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
 ::res://Assets/Theme/Main Menu/::1707622191
 main_menu_button.tres::StyleBoxFlat::5387923169860628167::1707503296::0::1::::<><>::
+::res://Save/::1707675064

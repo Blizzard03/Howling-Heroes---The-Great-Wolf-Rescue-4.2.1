@@ -16,7 +16,7 @@
 
 1. **Godot 4.2.1**
 
-    <img src="https://godotengine.org/assets/logo_dark.svg" width="128"/>
+	<img src="https://godotengine.org/assets/logo_dark.svg" width="128"/>
 
    
 

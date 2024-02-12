@@ -56,7 +56,6 @@ theme_override_fonts/font = ExtResource("2_al8ah")
 theme_override_font_sizes/font_size = 32
 
 [node name="Video" type="TabBar" parent="Backkground/Options Menu/Settings_Option_Tab_Menu"]
-visible = false
 layout_mode = 2
 
 [node name="Video_Settings" type="GridContainer" parent="Backkground/Options Menu/Settings_Option_Tab_Menu/Video"]
@@ -115,6 +114,7 @@ offset_right = -0.0349426
 offset_bottom = 0.00802994
 
 [node name="Audio" type="TabBar" parent="Backkground/Options Menu/Settings_Option_Tab_Menu"]
+visible = false
 layout_mode = 2
 
 [node name="Audio_Settings" type="GridContainer" parent="Backkground/Options Menu/Settings_Option_Tab_Menu/Audio"]
@@ -239,11 +239,5 @@ theme_override_styles/normal = SubResource("StyleBoxEmpty_ifj1x")
 text = "Save
 "
 
-[connection signal="item_selected" from="Backkground/Options Menu/Settings_Option_Tab_Menu/Video/Video_Settings/Display_Mode_Option" to="." method="_on_display_mode_option_item_selected"]
-[connection signal="toggled" from="Backkground/Options Menu/Settings_Option_Tab_Menu/Video/Video_Settings/V_Sync_Switch" to="." method="_on_v_sync_switch_pressed"]
-[connection signal="value_changed" from="Backkground/Options Menu/Settings_Option_Tab_Menu/Audio/Audio_Settings/Master_Volume_Setings/Master_Slider" to="." method="_on_master_slider_value_changed"]
-[connection signal="value_changed" from="Backkground/Options Menu/Settings_Option_Tab_Menu/Audio/Audio_Settings/Music_Volume_Setings/Music_Slider" to="." method="_on_music_slider_value_changed"]
-[connection signal="value_changed" from="Backkground/Options Menu/Settings_Option_Tab_Menu/Audio/Audio_Settings/Voice_Volume_Setings/Voice_Slider" to="." method="_on_voice_slider_value_changed"]
-[connection signal="value_changed" from="Backkground/Options Menu/Settings_Option_Tab_Menu/Audio/Audio_Settings/SFX_Volume_Setings/SFX_Slider" to="." method="_on_sfx_slider_value_changed"]
 [connection signal="pressed" from="Backkground/Options Menu/Buttons/Back_Button" to="." method="_on_back_button_pressed"]
 [connection signal="pressed" from="Backkground/Options Menu/Buttons/Save_Button" to="." method="_on_save_button_pressed"]
