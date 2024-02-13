@@ -16,6 +16,7 @@ func _on_new_game_main_menu_buttons_pressed():
 #Continue Game Button
 func _on_continue_main_menu_buttons_pressed():
 	startbtn.play()
+	LoadingScreen.load_scence("res://Assets/Scences/UI/Load_slot/loader_screen.tscn")
 
 #Options Button
 func _on_options_main_menu_buttons_pressed():

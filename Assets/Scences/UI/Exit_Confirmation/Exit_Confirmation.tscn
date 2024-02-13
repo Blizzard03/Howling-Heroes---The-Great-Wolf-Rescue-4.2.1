@@ -1,10 +1,11 @@
-[gd_scene load_steps=6 format=3 uid="uid://buos6ae1qvw78"]
+[gd_scene load_steps=7 format=3 uid="uid://buos6ae1qvw78"]
 
 [ext_resource type="Script" path="res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd" id="1_fief4"]
 [ext_resource type="Theme" uid="uid://br2uoqpi38ygc" path="res://Assets/Theme/Dialouge/Exit_Confirmation.tres" id="2_0k7ty"]
 [ext_resource type="AudioStream" uid="uid://c8ygb4nqbs03p" path="res://Assets/Music/Warning/exclamation-101soundboards.mp3" id="3_ct1th"]
 [ext_resource type="AudioStream" uid="uid://ty2bg0clrp0t" path="res://Assets/Music/All Button/Quit_Button.mp3" id="4_87xpo"]
 [ext_resource type="AudioStream" uid="uid://bpkfmkyhxykdk" path="res://Assets/Music/Dialogues/Good bye/Goodbye.mp3" id="5_5hn7p"]
+[ext_resource type="FontFile" uid="uid://daews5bmpatgf" path="res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf" id="6_lj7vy"]
 
 [node name="ExitConfirmation" type="Control"]
 layout_mode = 3
@@ -26,7 +27,6 @@ max_size = Vector2i(1280, 720)
 theme = ExtResource("2_0k7ty")
 ok_button_text = "Yes"
 dialog_text = " Are you sure want exit the game?"
-dialog_hide_on_ok = false
 dialog_close_on_escape = false
 cancel_button_text = "No"
 
@@ -43,6 +43,23 @@ area_mask = 2
 stream = ExtResource("5_5hn7p")
 bus = &"Voices"
 area_mask = 2
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -273.5
+offset_top = -34.5
+offset_right = 273.5
+offset_bottom = 34.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_fonts/font = ExtResource("6_lj7vy")
+theme_override_font_sizes/font_size = 68
+text = "GOOD BYE !!!!"
 
 [connection signal="canceled" from="ConfirmationDialog" to="." method="_on_confirmation_dialog_canceled"]
 [connection signal="confirmed" from="ConfirmationDialog" to="." method="_on_confirmation_dialog_confirmed"]

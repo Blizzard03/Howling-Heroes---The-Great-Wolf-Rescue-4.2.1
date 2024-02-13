@@ -1,7 +1,7 @@
 fc8a56933c4b1c8d796fdb8f7a9f9475
-::res://::1707676105
+::res://::1707806293
 default_bus_layout.tres::AudioBusLayout::196888898710771457::1705076652::0::1::::<><>::
-export_presets.cfg::TextFile::-1::1707208017::0::1::::<><>::
+export_presets.cfg::TextFile::-1::1707734456::0::1::::<><>::
 icon.svg::CompressedTexture2D::1128398145262920593::1705076652::1706029110::1::::<><>::
 README.md::TextFile::-1::1707663969::0::1::::<><>::
 ::res://addons/::1706028574
@@ -85,8 +85,8 @@ field_text_singleline.gd::GDScript::-1::1706027675::0::1::::<>DialogicVisualEdit
 field_text_singleline.tscn::PackedScene::193280157467062682::1706027675::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_text_singleline.gd
 field_vector2.gd::GDScript::-1::1706027675::0::1::::<>DialogicVisualEditorField<>::
 field_vector2.tscn::PackedScene::250297584763637452::1706027675::0::1::::<><>::res://addons/dialogic/Editor/Events/Fields/field_vector2.gd<>uid://kdpp3mibml33::::res://addons/dialogic/Editor/Events/Fields/field_number.tscn
-::res://addons/dialogic/Editor/Events/styles/::1706028574
-InputFieldsStyle.tres::Theme::9138712547249545382::1706027675::0::1::::<><>::
+::res://addons/dialogic/Editor/Events/styles/::1707801320
+InputFieldsStyle.tres::Theme::9138712547249545382::1707801320::0::1::::<><>::
 ResourceMenuHover.tres::StyleBoxFlat::-1::1706027675::0::1::::<><>::
 ResourceMenuNormal.tres::StyleBoxFlat::-1::1706027675::0::1::::<><>::
 ResourceMenuPanelBackground.tres::StyleBoxFlat::209165682571293718::1706027675::0::1::::<><>::
@@ -148,11 +148,11 @@ settings_translation.tscn::PackedScene::5295236732155278879::1706027675::0::1:::
 ::res://addons/dialogic/Editor/Theme/::1706028574
 MainTheme.tres::Theme::5934233903620397670::1706027675::0::1::::<><>::
 PickerTheme.tres::Theme::-1::1706027675::0::1::::<><>::
-::res://addons/dialogic/Editor/TimelineEditor/::1706030255
+::res://addons/dialogic/Editor/TimelineEditor/::1707797680
 test_timeline_scene.gd::GDScript::-1::1706030255::0::1::::<>Control<>::
-test_timeline_scene.tscn::PackedScene::1411608111636751797::1706027675::0::1::::<><>::res://addons/dialogic/Editor/TimelineEditor/test_timeline_scene.gd
+test_timeline_scene.tscn::PackedScene::1411608111636751797::1707797680::0::1::::<><>::res://addons/dialogic/Editor/TimelineEditor/test_timeline_scene.gd
 timeline_editor.gd::GDScript::-1::1706027675::0::1::::<>DialogicEditor<>::
-timeline_editor.tscn::PackedScene::5970468661901911489::1706027675::0::1::::<><>::res://addons/dialogic/Editor/TimelineEditor/timeline_editor.gd<>uid://ysqbusmy0qma::::res://addons/dialogic/Editor/TimelineEditor/VisualEditor/timeline_editor_visual.tscn<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>uid://defdeav8rli6o::::res://addons/dialogic/Editor/TimelineEditor/TextEditor/timeline_editor_text.tscn<>res://addons/dialogic/Editor/TimelineEditor/TextEditor/syntax_highlighter.gd
+timeline_editor.tscn::PackedScene::5970468661901911489::1707777208::0::1::::<><>::res://addons/dialogic/Editor/TimelineEditor/timeline_editor.gd<>uid://ysqbusmy0qma::::res://addons/dialogic/Editor/TimelineEditor/VisualEditor/timeline_editor_visual.tscn<>uid://dbpkta2tjsqim::::res://addons/dialogic/Editor/Common/hint_tooltip_icon.tscn<>uid://defdeav8rli6o::::res://addons/dialogic/Editor/TimelineEditor/TextEditor/timeline_editor_text.tscn<>res://addons/dialogic/Editor/TimelineEditor/TextEditor/syntax_highlighter.gd
 ::res://addons/dialogic/Editor/TimelineEditor/TextEditor/::1706028574
 CodeCompletionHelper.gd::GDScript::-1::1706027675::0::1::::<>Node<>::
 syntax_highlighter.gd::GDScript::-1::1706027675::0::1::::<>SyntaxHighlighter<>::
@@ -580,20 +580,15 @@ timeline.gd::GDScript::-1::1706027675::0::1::::DialogicTimeline<>Resource<>::
 TimelineResourceLoader.gd::GDScript::-1::1706027675::0::1::::DialogicTimelineFormatLoader<>ResourceFormatLoader<>::
 TimelineResourceSaver.gd::GDScript::-1::1706027675::0::1::::DialogicTimelineFormatSaver<>ResourceFormatSaver<>::
 ::res://addons/dialogic/test-project/::1706027675
-::res://Assets/::1707622118
-::res://Assets/Background/::1705076648
-::res://Assets/Background/Loading_Screen/::1706029121
-Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg::CompressedTexture2D::3709945880978449987::1705076648::1706029121::1::::<><>::
-::res://Assets/Background/Main_Menu/::1706029121
-w2BsPEmg.jpeg::CompressedTexture2D::203078538310153075::1705076648::1706029121::1::::<><>::
+::res://Assets/::1707729452
 ::res://Assets/Dialogue/::1706068926
-::res://Assets/Dialogue/Character/::1706070723
-Mr_Wolf.dch::Resource::-1::1706070723::0::1::::<><>::
-::res://Assets/Dialogue/Theme/::1707671689
-Pixelize_Visual_Novel.tres::Resource/DialogicStyle::4396765608337922874::1707671689::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
-Speaker_Mode.tres::Resource/DialogicStyle::5794453110338011654::1707671689::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
-::res://Assets/Dialogue/TimeLines/::1707368344
-How To Play.dtl::Resource::-1::1707368344::0::1::::<><>::
+::res://Assets/Dialogue/Character/::1707736174
+Mr_Wolf.dch::Resource::-1::1707736174::0::1::::<><>::
+::res://Assets/Dialogue/Theme/::1707806303
+Pixelize_Visual_Novel.tres::Resource/DialogicStyle::4396765608337922874::1707806303::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://cy1y14inwkplb::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Portraits/vn_portrait_layer.tscn<>uid://bquja8jyk8kbr::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Textbox/vn_textbox_layer.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+Speaker_Mode.tres::Resource/DialogicStyle::5794453110338011654::1707806303::0::1::::<><>::uid://c1k5m0w3r40xf::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_FullBackground/full_background_layer.tscn<>res://addons/dialogic/Resources/dialogic_style_layer.gd<>uid://by6waso0mjpjp::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_SpeakerPortraitTextbox/textbox_with_speaker_portrait.tscn<>uid://cn674foxwedqu::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Input/full_advance_input_layer.tscn<>uid://dsbwnp5hegnu3::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_Glossary/glossary_popup_layer.tscn<>uid://dhk6j6eb6e3q::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_VN_Choices/vn_choice_layer.tscn<>uid://cvgf4c6gg0tsy::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_TextInput/text_input_layer.tscn<>uid://lx24i8fl6uo::::res://addons/dialogic/Modules/DefaultLayoutParts/Layer_History/history_layer.tscn<>res://addons/dialogic/Resources/dialogic_style.gd
+::res://Assets/Dialogue/TimeLines/::1707804580
+How To Play.dtl::Resource::-1::1707804580::0::1::::<><>::
 Intro.dtl::Resource::-1::1705076648::0::1::::<><>::
 ::res://Assets/Fonts/::1706029104
 Bloodthirsty-3j0p.ttf::FontFile::2102984756621087957::1705076648::1706029104::1::::<><>::
@@ -639,7 +634,12 @@ Roboto-MediumItalic.ttf::FontFile::5109103510644513582::1705076648::1706029104::
 Roboto-Regular.ttf::FontFile::4895068852221168296::1705076648::1706029104::1::::<><>::
 Roboto-Thin.ttf::FontFile::2147066138263124264::1705076648::1706029104::1::::<><>::
 Roboto-ThinItalic.ttf::FontFile::4225341889176103115::1705076648::1706029104::1::::<><>::
-::res://Assets/Image/::1705076648
+::res://Assets/Image/::1707729452
+::res://Assets/Image/Background/::1705076648
+::res://Assets/Image/Background/Loading_Screen/::1707729455
+Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg::CompressedTexture2D::3709945880978449987::1705076648::1707729455::1::::<><>::
+::res://Assets/Image/Background/Main_Menu/::1707729455
+w2BsPEmg.jpeg::CompressedTexture2D::203078538310153075::1705076648::1707729455::1::::<><>::
 ::res://Assets/Image/Character/::1706022691
 ::res://Assets/Image/Character/Aldhiyb Alqutbiu Al-Rasyid/::1706415504
 _4274df64-662e-4c12-b1a6-166214e7462a.png::CompressedTexture2D::2979704727802062053::1706415431::1706415477::1::::<><>::
@@ -651,51 +651,15 @@ Firefly_anthro_male_wolf_metalic_armor__fullbody__night_fullmoon_65732-transform
 Firefly_anthro_male_wolf_metalic_armor__fullbody__night_fullmoon_65732-transformed.png::CompressedTexture2D::1630218364288178103::1705076648::1706029122::1::::<><>::
 ::res://Assets/Image/Character/Mustadhyib Al-Rasyid/::1706415509
 _e304a84d-1938-4d05-82c4-68b34b018b94.png::CompressedTexture2D::7831367199569960476::1705076648::1706029122::1::::<><>::
-::res://Assets/Image/images/::1707654629
-Alien.png::CompressedTexture2D::860182640755220984::1705076648::1706029112::1::::<><>::
+::res://Assets/Image/images/::1707777152
 Arcanine.png::CompressedTexture2D::27839966220015175::1705076648::1706029112::1::::<><>::
-bear.png::CompressedTexture2D::6444426579540141676::1705076650::1706029112::1::::<><>::
-Bee.png::CompressedTexture2D::1113874832316583766::1705076648::1706029112::1::::<><>::
-blackwargreymon.png::CompressedTexture2D::5308561458551596793::1705076650::1706029112::1::::<><>::
-Blastoise (2).png::CompressedTexture2D::5521452227996312440::1705076648::1706029112::1::::<><>::
-blosomon.png::CompressedTexture2D::735655667484805014::1705076650::1706029112::1::::<><>::
-Bookself.png::CompressedTexture2D::4975635156953840394::1705076648::1706029112::1::::<><>::
-Box50x50.png::CompressedTexture2D::1876996446572119385::1705076648::1706029112::1::::<><>::
 Brown wolf.png::CompressedTexture2D::2425525319223014444::1705076648::1706029112::1::::<><>::
 Castle Battle.png::CompressedTexture2D::1947829733634459884::1705076648::1706029112::1::::<><>::
-Chair1.png::CompressedTexture2D::3575767250189061125::1705076648::1706029112::1::::<><>::
-Chair2.png::CompressedTexture2D::930162136276608850::1705076648::1706029112::1::::<><>::
-Chalizard.png::CompressedTexture2D::1641373940140518709::1705076648::1706029112::1::::<><>::
-charmander.png::CompressedTexture2D::2510490805560599852::1705076650::1706029112::1::::<><>::
-Claws Attacks.png::CompressedTexture2D::4568289213898454809::1705076648::1706029112::1::::<><>::
-Clear.png::CompressedTexture2D::1189263702010274775::1705076648::1706029112::1::::<><>::
 Comming soon paper 800x600.png::CompressedTexture2D::2048582289172021008::1705076648::1706029112::1::::<><>::
-desktop.ini::TextFile::-1::1705076650::0::1::::<><>::
-digimon logo 245x90.png::CompressedTexture2D::2539486954814859781::1705076650::1706029112::1::::<><>::
-dorugeymon.png::CompressedTexture2D::3362500417976665584::1705076650::1706029112::1::::<><>::
 enemies_081719_zp.png::CompressedTexture2D::2662307492425322574::1705076650::1706029112::1::::<><>::
-Fire.png::CompressedTexture2D::606162060395239980::1705076648::1706029112::1::::<><>::
-fish.png::CompressedTexture2D::6359835080280617773::1705076650::1706029112::1::::<><>::
-forestbar.png::CompressedTexture2D::613220837725709753::1705076650::1706029112::1::::<><>::
 gabumon.png::CompressedTexture2D::4787766866048588395::1705076650::1706029112::1::::<><>::
-Gameover.png::CompressedTexture2D::8373183555038307288::1705076648::1706029112::1::::<><>::
 Garudamon.png::CompressedTexture2D::4350676834426995772::1705076648::1706029110::1::::<><>::
 Garuru Tomahawk Missle.png::CompressedTexture2D::8711003811426449127::1705076648::1706029110::1::::<><>::
-Goblin.png::CompressedTexture2D::172748954246633798::1705076648::1706029110::1::::<><>::
-Golem.png::CompressedTexture2D::3663718740596291525::1705076648::1706029110::1::::<><>::
-grass1 50x50.png::CompressedTexture2D::7593144743630046212::1705076650::1706029110::1::::<><>::
-grass_e 50x50.png::CompressedTexture2D::8913020536139839795::1705076650::1706029110::1::::<><>::
-grass_flowers_blue3 50x50.png::CompressedTexture2D::363525583864309456::1705076650::1706029110::1::::<><>::
-grass_flowers_yellow1 50X50.png::CompressedTexture2D::1521494332052307153::1705076650::1706029110::1::::<><>::
-grass_full 50x50.png::CompressedTexture2D::8374499103998007860::1705076650::1706029110::1::::<><>::
-grass_n 50x50.png::CompressedTexture2D::3712367918495493270::1705076650::1706029110::1::::<><>::
-grass_ne 50x50.png::CompressedTexture2D::3025534879140356057::1705076650::1706029110::1::::<><>::
-grass_nw 50x50.png::CompressedTexture2D::24308226895049775::1705076650::1706029110::1::::<><>::
-grass_s 50x50.png::CompressedTexture2D::1853049658608943709::1705076650::1706029110::1::::<><>::
-grass_se 50x50.png::CompressedTexture2D::9184689913273922386::1705076650::1706029110::1::::<><>::
-grass_sw 50x50.png::CompressedTexture2D::1720651140174842505::1705076650::1706029110::1::::<><>::
-grass_w 50x50.png::CompressedTexture2D::1133026138886091309::1705076650::1706029110::1::::<><>::
-Greendragon.png::CompressedTexture2D::8527175185778272704::1705076648::1706029110::1::::<><>::
 Growlithe.png::CompressedTexture2D::4908424050516401920::1705076648::1706029110::1::::<><>::
 Growlmon.png::CompressedTexture2D::655729979007906495::1705076648::1706029110::1::::<><>::
 guilmon.png::CompressedTexture2D::4420421195324559846::1705076650::1706029110::1::::<><>::
@@ -707,92 +671,16 @@ Kraket.png::CompressedTexture2D::5107867840414280293::1705076648::1706029110::1:
 LeaveDragon.png::CompressedTexture2D::696424461325194536::1705076648::1706029110::1::::<><>::
 lift-closed.png::CompressedTexture2D::4017773740354906755::1705076650::1706029110::1::::<><>::
 lift-open.png::CompressedTexture2D::3540183385888322048::1705076650::1706029110::1::::<><>::
-Liong Dragon.png::CompressedTexture2D::7896173390445900660::1705076648::1706029110::1::::<><>::
-Lucario.png::CompressedTexture2D::8075208453869413978::1705076648::1706029110::1::::<><>::
-Lupine.png::CompressedTexture2D::3303670720248316850::1705076648::1706029110::1::::<><>::
 Majira.png::CompressedTexture2D::534101006924764312::1705076648::1706029109::1::::<><>::
-Metalgarurumon move Left Down 1.png::CompressedTexture2D::6400933189229576857::1705076648::1706029109::1::::<><>::
-Metalgarurumon move Left Down 2.png::CompressedTexture2D::1975542906684733529::1705076648::1706029109::1::::<><>::
-Metalgarurumon move Left Down 3.png::CompressedTexture2D::1788725362256907897::1705076648::1706029109::1::::<><>::
-Metalgarurumon move right up 1.png::CompressedTexture2D::8410460888346085302::1705076648::1706029109::1::::<><>::
-Metalgarurumon move right up 2.png::CompressedTexture2D::8512649732648708906::1705076648::1706029109::1::::<><>::
-Metalgarurumon move right up 3.png::CompressedTexture2D::3423447447445733593::1705076648::1706029109::1::::<><>::
-metalseadramon.png::CompressedTexture2D::3832834566819502944::1705076650::1706029110::1::::<><>::
 Monsters1b.png::CompressedTexture2D::2656824107636355526::1705076648::1706029110::1::::<><>::
-naga.png::CompressedTexture2D::4086625357085248951::1705076650::1706029110::1::::<><>::
-omnimon.png::CompressedTexture2D::6660320634779056704::1705076650::1706029110::1::::<><>::
-Pause music.png::CompressedTexture2D::8634326640612924952::1705076648::1706029110::1::::<><>::
-pedestal_e64x64.png::CompressedTexture2D::281671217585729260::1705076650::1706029110::1::::<><>::
-pedestal_full 64x64.png::CompressedTexture2D::2317500091114422304::1705076650::1706029110::1::::<><>::
-pedestal_n64x64.png::CompressedTexture2D::7223140384725409909::1705076650::1706029110::1::::<><>::
-pedestal_ne 64x64.png::CompressedTexture2D::3596324590266237813::1705076650::1706029110::1::::<><>::
-pedestal_nw 64x64.png::CompressedTexture2D::7933589173941839445::1705076650::1706029110::1::::<><>::
-pedestal_s 64x64.png::CompressedTexture2D::3065119477692125435::1705076650::1706029110::1::::<><>::
-pedestal_se 64 x64.png::CompressedTexture2D::687974547192092257::1705076650::1706029110::1::::<><>::
-pedestal_sw 64 x 64.png::CompressedTexture2D::3209615575879182132::1705076650::1706029110::1::::<><>::
-pedestal_w 64x64.png::CompressedTexture2D::4363060064493038347::1705076650::1706029110::1::::<><>::
+Moonlight Night Scenery Acrylic Painting for beginners 2019.png::CompressedTexture2D::9022717448836206399::1707777146::1707777152::1::::<><>::
 Platform.png::CompressedTexture2D::5380591084569408554::1705076648::1706029110::1::::<><>::
-pokrmonlogo.png::CompressedTexture2D::5741466241789746954::1705076650::1706029110::1::::<><>::
 Puppy 40X40.png::CompressedTexture2D::5215121436167194515::1705076648::1706029110::1::::<><>::
-rabit.png::CompressedTexture2D::7024109310074379669::1705076650::1706029110::1::::<><>::
-Raiddramon.png::CompressedTexture2D::3717383698370762584::1705076648::1706029110::1::::<><>::
-Rat.png::CompressedTexture2D::2243023444042807553::1705076648::1706029110::1::::<><>::
-Rayquza 40x40.png::CompressedTexture2D::5259220322457702176::1705076648::1706029110::1::::<><>::
-reddragon.png::CompressedTexture2D::8788054426869994853::1705076650::1706029110::1::::<><>::
-River.png::CompressedTexture2D::6142627438519220958::1705076648::1706029110::1::::<><>::
-Rizegreymon.png::CompressedTexture2D::1441327021004679549::1705076648::1706029110::1::::<><>::
-Robodog.png::CompressedTexture2D::8236839043698742426::1705076648::1706029110::1::::<><>::
-rock.png::CompressedTexture2D::8486587688101752300::1705076650::1706029110::1::::<><>::
 Rubber Dragon.png::CompressedTexture2D::3663927537187221312::1705076648::1706029110::1::::<><>::
 Rubber Wolf3.png::CompressedTexture2D::8168480088340581649::1705076648::1706029110::1::::<><>::
 Rubber WOLF 2.png::CompressedTexture2D::496230732869746199::1705076648::1706029110::1::::<><>::
 Rubber Wolf.png::CompressedTexture2D::4307065088054335108::1705076648::1706029110::1::::<><>::
 Shark Anthro.png::CompressedTexture2D::8569764733706546184::1705076648::1706029110::1::::<><>::
-SmallPanel_S 60x40.jpg::CompressedTexture2D::2329922440861292716::1705076648::1706029110::1::::<><>::
-Snakes 40x40.png::CompressedTexture2D::578688444369529495::1705076648::1706029110::1::::<><>::
-Snivy.png::CompressedTexture2D::4026799781993019612::1705076648::1706029110::1::::<><>::
-space1.jpg::CompressedTexture2D::5726265444878364624::1705076650::1706029110::1::::<><>::
-Spider.png::CompressedTexture2D::3695245793399751791::1705076648::1706029110::1::::<><>::
-SquarePanel 25x25.jpg::CompressedTexture2D::3356937426231668989::1705076648::1706029110::1::::<><>::
-textbox.jpg::CompressedTexture2D::6496319668869336133::1705076650::1706029110::1::::<><>::
-tile01.JPG::CompressedTexture2D::2626351187734164418::1705076650::1706029110::1::::<><>::
-tile02.JPG::CompressedTexture2D::7845026838821322884::1705076650::1706029110::1::::<><>::
-tile03.JPG::CompressedTexture2D::4536239737744899533::1705076650::1706029110::1::::<><>::
-tile04.JPG::CompressedTexture2D::6620538472096992383::1705076650::1706029110::1::::<><>::
-tile05.JPG::CompressedTexture2D::8621473621327208884::1705076650::1706029110::1::::<><>::
-tile06.JPG::CompressedTexture2D::2703245607352266767::1705076650::1706029110::1::::<><>::
-tile07.JPG::CompressedTexture2D::7918558438663413819::1705076650::1706029110::1::::<><>::
-tile08.JPG::CompressedTexture2D::7162865064012933380::1705076650::1706029110::1::::<><>::
-tile09.JPG::CompressedTexture2D::2006027565603883456::1705076650::1706029110::1::::<><>::
-tile10.JPG::CompressedTexture2D::2920773847388844122::1705076650::1706029110::1::::<><>::
-tile11.JPG::CompressedTexture2D::414022858482660060::1705076650::1706029110::1::::<><>::
-tile12.JPG::CompressedTexture2D::1395392210268148811::1705076650::1706029110::1::::<><>::
-tile13.JPG::CompressedTexture2D::446694559181925035::1705076650::1706029110::1::::<><>::
-tile14.JPG::CompressedTexture2D::2771696637624826028::1705076650::1706029110::1::::<><>::
-tile15.JPG::CompressedTexture2D::2916416855191419753::1705076650::1706029110::1::::<><>::
-tile16.JPG::CompressedTexture2D::2883800706886228435::1705076650::1706029110::1::::<><>::
-tile17.JPG::CompressedTexture2D::3547976694410036038::1705076650::1706029110::1::::<><>::
-tile18.JPG::CompressedTexture2D::6948822879692105966::1705076650::1706029110::1::::<><>::
-tile19.JPG::CompressedTexture2D::91819882746913091::1705076650::1706029110::1::::<><>::
-tile20.JPG::CompressedTexture2D::1920832353003107031::1705076650::1706029110::1::::<><>::
-tile21.JPG::CompressedTexture2D::947520850392172058::1705076650::1706029110::1::::<><>::
-tile22.JPG::CompressedTexture2D::6450587400013577905::1705076650::1706029110::1::::<><>::
-tile23.JPG::CompressedTexture2D::2401828659472176004::1705076650::1706029110::1::::<><>::
-tile24.JPG::CompressedTexture2D::4035893976904458130::1705076651::1706029110::1::::<><>::
-tile25.JPG::CompressedTexture2D::7921341214458089041::1705076651::1706029110::1::::<><>::
-tile26.JPG::CompressedTexture2D::7312536257910876217::1705076651::1706029110::1::::<><>::
-tile27.JPG::CompressedTexture2D::2821216904449515590::1705076651::1706029110::1::::<><>::
-tile28.JPG::CompressedTexture2D::905517750919081317::1705076651::1706029110::1::::<><>::
-tile29.JPG::CompressedTexture2D::5836349876026415153::1705076651::1706029110::1::::<><>::
-tile30.JPG::CompressedTexture2D::2071987442179462516::1705076651::1706029110::1::::<><>::
-tile31.JPG::CompressedTexture2D::2162757965309190360::1705076651::1706029110::1::::<><>::
-tile32.JPG::CompressedTexture2D::1437739869217257991::1705076651::1706029110::1::::<><>::
-tile33.JPG::CompressedTexture2D::4655428791926087415::1705076651::1706029110::1::::<><>::
-Tilesert1.png::CompressedTexture2D::1452221079295125106::1705076649::1706029110::1::::<><>::
-TileTeleport.png::CompressedTexture2D::2980472091822809988::1705076649::1706029110::1::::<><>::
-tree2.png::CompressedTexture2D::3728769956135281989::1705076651::1706029110::1::::<><>::
-Wall.jpg::CompressedTexture2D::2827460511202395733::1705076649::1706029110::1::::<><>::
-Websprider.png::CompressedTexture2D::7587122768443773988::1705076649::1706029110::1::::<><>::
 wereegarurumon.png::CompressedTexture2D::2800560115101822913::1705076651::1706029110::1::::<><>::
 Wolf.png::CompressedTexture2D::7108231300262431553::1705076649::1706029110::1::::<><>::
 wolf_gray_full.png::CompressedTexture2D::4743499162655086072::1705076651::1706029110::1::::<><>::
@@ -1102,17 +990,6 @@ Cursor 32x32.png::CompressedTexture2D::5384442301746302760::1705076648::17060291
 Cursor.png::CompressedTexture2D::6406101330161508959::1705076648::1706029127::1::::<><>::
 ::res://Assets/Image/images/Dialogue/::1706029127
 Dialogbox-transformed 600x150.png::CompressedTexture2D::2682034354070564179::1705076648::1706029127::1::::<><>::
-::res://Assets/Image/images/Dugeons/::1706029127
-desktop.ini::TextFile::-1::1705076648::0::1::::<><>::
-pedestal_e64x64.png::CompressedTexture2D::5760471976454109059::1705076648::1706029127::1::::<><>::
-pedestal_full 64x64.png::CompressedTexture2D::8682061765767822687::1705076648::1706029127::1::::<><>::
-pedestal_n64x64.png::CompressedTexture2D::3578380745624907939::1705076648::1706029127::1::::<><>::
-pedestal_ne 64x64.png::CompressedTexture2D::937006273644825961::1705076648::1706029127::1::::<><>::
-pedestal_nw 64x64.png::CompressedTexture2D::7254276166418180535::1705076648::1706029126::1::::<><>::
-pedestal_s 64x64.png::CompressedTexture2D::3013505200517354724::1705076648::1706029126::1::::<><>::
-pedestal_se 64 x64.png::CompressedTexture2D::5744371922507056829::1705076648::1706029126::1::::<><>::
-pedestal_sw 64 x 64.png::CompressedTexture2D::3024833217708500062::1705076648::1706029126::1::::<><>::
-pedestal_w 64x64.png::CompressedTexture2D::670177968477730805::1705076648::1706029126::1::::<><>::
 ::res://Assets/Image/images/enemies/::1706029127
 Actor1_3.png::CompressedTexture2D::2301696189569243035::1705076650::1706029126::1::::<><>::
 Actor1_4.png::CompressedTexture2D::7633797246994085507::1705076650::1706029126::1::::<><>::
@@ -1784,15 +1661,15 @@ Bridge_Stone_Sound.mp3::AudioStreamMP3::5507137372112208592::1705076651::1706029
 ::res://Assets/Music/Dialogues/::1707653933
 ::res://Assets/Music/Dialogues/Good bye/::1707653987
 Goodbye.mp3::AudioStreamMP3::3460222692953421736::1707653947::1707653987::1::::<><>::
-::res://Assets/Music/Dialogues/How to Play/::1706029104
-How to Play 1.mp3::AudioStreamMP3::558066162665335825::1705076651::1706029104::1::::<><>::
-How to Play 2.mp3::AudioStreamMP3::6817550881563332738::1705076651::1706029104::1::::<><>::
-How to Play 3.mp3::AudioStreamMP3::4290003612845210739::1705076651::1706029104::1::::<><>::
-How to Play 4.mp3::AudioStreamMP3::593079850350214581::1705076651::1706029104::1::::<><>::
-How to Play 5.mp3::AudioStreamMP3::9049502124738202451::1705076651::1706029104::1::::<><>::
-How to Play 6.mp3::AudioStreamMP3::5996805170414401723::1705076651::1706029104::1::::<><>::
-How to Play 7.mp3::AudioStreamMP3::7329527359156331112::1705076651::1706029104::1::::<><>::
-How to Play 8.mp3::AudioStreamMP3::6772934392924581751::1705076651::1706029104::1::::<><>::
+::res://Assets/Music/Dialogues/How to Play/::1707797000
+How to play 1.mp3::AudioStreamMP3::3626732527100779958::1707795029::1707796409::1::::<><>::
+How to play 2.mp3::AudioStreamMP3::681080141554192952::1707795161::1707796409::1::::<><>::
+How to play 3.mp3::AudioStreamMP3::7582847306550033627::1707795343::1707796409::1::::<><>::
+How to play 4.mp3::AudioStreamMP3::6566116311559218765::1707795295::1707796409::1::::<><>::
+How to play 5.mp3::AudioStreamMP3::8861925827170465031::1707796995::1707797000::1::::<><>::
+How to play 6.mp3::AudioStreamMP3::1717023771587331335::1707795613::1707796409::1::::<><>::
+How to play 7.mp3::AudioStreamMP3::8859325080595186058::1707796329::1707796409::1::::<><>::
+How to play 8.mp3::AudioStreamMP3::5526193774475753502::1707796381::1707797000::1::::<><>::
 ::res://Assets/Music/Dialogues/Kate - Save The Game/::1706029104
 Kate_Save_Complited.mp3::AudioStreamMP3::74383507964066751::1705076651::1706029104::1::::<><>::
 Save.mp3::AudioStreamMP3::3295402014185765027::1705076651::1706029104::1::::<><>::
@@ -1925,64 +1802,69 @@ Start_Buton_Sound.mp3::AudioStreamMP3::5878018329741494476::1705076652::17060291
 ::res://Assets/Music/Warning/::1707483518
 exclamation-101soundboards.mp3::AudioStreamMP3::7138985905277861131::1707482270::1707483518::1::::<><>::
 ::res://Assets/Scences/::1705246784
-::res://Assets/Scences/Character/::1707641529
-Mustadhyib Al-Rasyid.tscn::PackedScene::1613442018075110151::1707641529::0::1::::<><>::
+::res://Assets/Scences/Character/::1707777208
+Mustadhyib Al-Rasyid.tscn::PackedScene::1613442018075110151::1707777208::0::1::::<><>::
 ::res://Assets/Scences/Location/::1705076652
-::res://Assets/Scences/Location/Bridge_Stone_Forest/::1705076652
-Bridge_Stone_Forest.tscn::PackedScene::5895699722967377137::1705076652::0::1::::<><>::
-::res://Assets/Scences/Location/How_to_Play/::1705076652
-How_To_Play.tscn::PackedScene::5079252934453415338::1705076652::0::1::::<><>::
-::res://Assets/Scences/UI/::1707481958
-::res://Assets/Scences/UI/Credits/::1707675304
-credit.tscn::PackedScene::2507636290248716165::1707675304::0::1::::<><>::uid://d4bb46msror13::::res://Assets/Image/images/Credits/pixel_art_A_breathtaking_lands.jpeg<>uid://74m415i5q2nb::::res://Assets/Fonts/Wolf Moon.ttf<>uid://2gbyqhhtj8i7::::res://Assets/Fonts/Roboto/Roboto-BoldItalic.ttf<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
-::res://Assets/Scences/UI/Exit_Confirmation/::1707661738
-Exit_Confirmation.tscn::PackedScene::3820247117874205729::1707661738::0::1::::<><>::res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd<>uid://br2uoqpi38ygc::::res://Assets/Theme/Dialouge/Exit_Confirmation.tres<>uid://c8ygb4nqbs03p::::res://Assets/Music/Warning/exclamation-101soundboards.mp3<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://bpkfmkyhxykdk::::res://Assets/Music/Dialogues/Good bye/Goodbye.mp3
-::res://Assets/Scences/UI/Loading_Screen/::1707649170
-loading_screen.tscn::PackedScene::6266683255097803947::1707649170::0::1::::<><>::res://Assets/Script/Controller/UI/Loading/loading_screen_Menu.gd<>uid://bs4ejchvb0yx4::::res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg<>uid://ccpiomxr4hnwi::::res://Assets/Fonts/DisposableDroidBB_bldital.ttf
-::res://Assets/Scences/UI/Main_Menu/::1707675304
-main_menu.tscn::PackedScene::4804210801108702186::1707675304::0::1::::<><>::res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd<>uid://cp0mdrgknw0x1::::res://Assets/Music/Start_Buton_Sound/Start_Buton_Sound.mp3<>uid://c5mw58h2ajhr::::res://Assets/Background/Main_Menu/w2BsPEmg.jpeg<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://c4aec0kompmv8::::res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png<>uid://daews5bmpatgf::::res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf<>uid://bvycrbomgp75i::::res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3<>uid://ccpiomxr4hnwi::::res://Assets/Fonts/DisposableDroidBB_bldital.ttf<>uid://bm28mptpxjf7k::::res://Assets/Image/images/Buttons/Discord.png<>uid://dyvag8ysn7o6g::::res://Assets/Image/images/Buttons/Github.png<>uid://ydktuoqad1lc::::res://Assets/Image/images/Buttons/FA.png
-::res://Assets/Scences/UI/Options/::1707675689
-Options_Menu.tscn::PackedScene::1560212918064034487::1707675689::0::1::::<><>::res://Assets/Script/Controller/UI/Options_Menu/Options_Menu.gd<>uid://ca37ndc8femkj::::res://Assets/Image/images/Background/Option/Settings.jpeg<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
+::res://Assets/Scences/Location/Bridge_Stone_Forest/::1707739495
+Bridge_Stone_Forest.tscn::PackedScene::5895699722967377137::1707739495::0::1::::<><>::
+::res://Assets/Scences/Location/How_to_Play/::1707804931
+How_To_Play.tscn::PackedScene::5079252934453415338::1707804931::0::1::::<><>::res://Assets/Script/Controller/UI/How to play/How_To_Play.gd
+::res://Assets/Scences/UI/::1707777323
+::res://Assets/Scences/UI/Credits/::1707804719
+credit.tscn::PackedScene::2507636290248716165::1707804719::0::1::::<><>::uid://d4bb46msror13::::res://Assets/Image/images/Credits/pixel_art_A_breathtaking_lands.jpeg<>uid://74m415i5q2nb::::res://Assets/Fonts/Wolf Moon.ttf<>uid://2gbyqhhtj8i7::::res://Assets/Fonts/Roboto/Roboto-BoldItalic.ttf<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
+::res://Assets/Scences/UI/Exit_Confirmation/::1707804719
+Exit_Confirmation.tscn::PackedScene::3820247117874205729::1707804719::0::1::::<><>::res://Assets/Script/Controller/UI/Exit_Confirmation/Exit Confirmation.gd<>uid://br2uoqpi38ygc::::res://Assets/Theme/Dialouge/Exit_Confirmation.tres<>uid://c8ygb4nqbs03p::::res://Assets/Music/Warning/exclamation-101soundboards.mp3<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://bpkfmkyhxykdk::::res://Assets/Music/Dialogues/Good bye/Goodbye.mp3<>uid://daews5bmpatgf::::res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf
+::res://Assets/Scences/UI/Loading_Screen/::1707729452
+loading_screen.tscn::PackedScene::6266683255097803947::1707729452::0::1::::<><>::res://Assets/Script/Controller/UI/Loading/loading_screen_Menu.gd<>uid://bs4ejchvb0yx4::::res://Assets/Image/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg<>uid://ccpiomxr4hnwi::::res://Assets/Fonts/DisposableDroidBB_bldital.ttf
+::res://Assets/Scences/UI/Load_slot/::1707804719
+loader_screen.tscn::PackedScene::3471102995414826311::1707804719::0::1::::<><>::uid://d1sw3q5r06tf8::::res://Assets/Image/images/Moonlight Night Scenery Acrylic Painting for beginners 2019.png<>res://Assets/Script/Controller/UI/Load_slot/loader_screen.gd<>uid://c4ipkih8u305j::::res://Assets/Fonts/DEADLY CLAWS[.ttf<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf
+::res://Assets/Scences/UI/Main_Menu/::1707804719
+main_menu.tscn::PackedScene::4804210801108702186::1707804719::0::1::::<><>::res://Assets/Script/Controller/UI/Main_Menu/main_menu.gd<>uid://cp0mdrgknw0x1::::res://Assets/Music/Start_Buton_Sound/Start_Buton_Sound.mp3<>uid://c5mw58h2ajhr::::res://Assets/Image/Background/Main_Menu/w2BsPEmg.jpeg<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://c4aec0kompmv8::::res://Assets/Image/Logo/Logo Project Howling Heroes The Great Wolf Rescue.png<>uid://daews5bmpatgf::::res://Assets/Fonts/WolfpackHalloweed-EaGOl.otf<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf<>uid://bvycrbomgp75i::::res://Assets/Music/Main_Menu/Night Fullmoon wolf howling tock and roll horor-Mubert.mp3<>uid://ccpiomxr4hnwi::::res://Assets/Fonts/DisposableDroidBB_bldital.ttf<>uid://bm28mptpxjf7k::::res://Assets/Image/images/Buttons/Discord.png<>uid://dyvag8ysn7o6g::::res://Assets/Image/images/Buttons/Github.png<>uid://ydktuoqad1lc::::res://Assets/Image/images/Buttons/FA.png
+::res://Assets/Scences/UI/Options/::1707804719
+Options_Menu.tscn::PackedScene::1560212918064034487::1707804719::0::1::::<><>::res://Assets/Script/Controller/UI/Options_Menu/Options_Menu.gd<>uid://ca37ndc8femkj::::res://Assets/Image/images/Background/Option/Settings.jpeg<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
 ::res://Assets/Scences/UI/Pause Menu/::1705739106
 Pause_Menu.tscn::PackedScene::1060863744242428003::1705739106::0::1::::<><>::uid://c5d6dphqxcljj::::res://Assets/Fonts/DisposableDroidBB.ttf
-::res://Assets/Scences/UI/Settings_Confrimation/::1707649170
-settings_confrimation.tscn::PackedScene::4792057750461397828::1707649170::0::1::::<><>::res://Assets/Script/Controller/UI/Settings_Confirmation/settings_confrimation.gd<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://c8ygb4nqbs03p::::res://Assets/Music/Warning/exclamation-101soundboards.mp3<>uid://br2uoqpi38ygc::::res://Assets/Theme/Dialouge/Exit_Confirmation.tres
-::res://Assets/Scences/UI/Splash/::1707675304
+::res://Assets/Scences/UI/Settings_Confrimation/::1707776710
+settings_confrimation.tscn::PackedScene::4792057750461397828::1707776710::0::1::::<><>::res://Assets/Script/Controller/UI/Settings_Confirmation/settings_confrimation.gd<>uid://ty2bg0clrp0t::::res://Assets/Music/All Button/Quit_Button.mp3<>uid://c8ygb4nqbs03p::::res://Assets/Music/Warning/exclamation-101soundboards.mp3<>uid://br2uoqpi38ygc::::res://Assets/Theme/Dialouge/Exit_Confirmation.tres
+::res://Assets/Scences/UI/Splash/::1707804719
 Splash_Screen.tscn::PackedScene::2923839636953089034::1707649170::0::1::::<><>::res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen.gd<>uid://d16hkoquk0jh::::res://Assets/Image/Splash Screen/Splash Screen.png
-Splash_Screen_Played.tscn::PackedScene::960210786821005025::1707675304::0::1::::<><>::res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen_Played.gd<>uid://cs44rsscdpaxf::::res://Assets/Image/Keyboard and Mouse/478401-PHEZK8-856.png<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf
-::res://Assets/Scences/UI/Word map/::1707649170
-World Map.tscn::PackedScene::9142651575982287958::1707649170::0::1::::<><>::res://Assets/Script/Controller/UI/World_Map/World Map.gd<>uid://h1p0uirdgfcq::::res://Assets/Image/images/World Map/bluemarble-2048.png<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf<>uid://cf3hluv2j6iuk::::res://Assets/Image/images/Pin/Pin 2.png<>uid://ypngbnr182p3::::res://Assets/Image/images/Pin/Pin 1.png<>uid://chrq18ycsrh5p::::res://Assets/Image/images/Pin/Pin 7.png<>uid://t6mrqsae1anb::::res://Assets/Image/images/Pin/Pin 5.png<>uid://dx16qymdpjp::::res://Assets/Image/images/Pin/Pin 6.png<>uid://bwcdwpn15pgq4::::res://Assets/Image/images/Pin/Pin 4.png
+Splash_Screen_Played.tscn::PackedScene::960210786821005025::1707804719::0::1::::<><>::res://Assets/Script/Controller/UI/Splash_Screen/Splash_Screen_Played.gd<>uid://cs44rsscdpaxf::::res://Assets/Image/Keyboard and Mouse/478401-PHEZK8-856.png<>uid://bv6xsykw7vcai::::res://Assets/Fonts/DisposableDroidBB_bld.ttf
+::res://Assets/Scences/UI/Word map/::1707807079
+World Map.tscn::PackedScene::9142651575982287958::1707807156::0::1::::<><>::res://Assets/Script/Controller/UI/World_Map/World Map.gd<>uid://h1p0uirdgfcq::::res://Assets/Image/images/World Map/bluemarble-2048.png<>uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf<>uid://cf3hluv2j6iuk::::res://Assets/Image/images/Pin/Pin 2.png<>uid://ypngbnr182p3::::res://Assets/Image/images/Pin/Pin 1.png<>uid://chrq18ycsrh5p::::res://Assets/Image/images/Pin/Pin 7.png<>uid://t6mrqsae1anb::::res://Assets/Image/images/Pin/Pin 5.png<>uid://dx16qymdpjp::::res://Assets/Image/images/Pin/Pin 6.png<>uid://bwcdwpn15pgq4::::res://Assets/Image/images/Pin/Pin 4.png
 ::res://Assets/Script/::1706688558
 ::res://Assets/Script/Class/::1706688558
 ::res://Assets/Script/Controller/::1707658483
 ::res://Assets/Script/Controller/Save/::1707666880
-::res://Assets/Script/Controller/Save/Global_Settings/::1707675689
-Global_Settings.gd::GDScript::-1::1707675689::0::1::::<>Node<>::
+::res://Assets/Script/Controller/Save/Global_Settings/::1707695313
+Global_Settings.gd::GDScript::-1::1707695313::0::1::::<>Node<>::
 ::res://Assets/Script/Controller/Save/Player/::1707666851
-::res://Assets/Script/Controller/Save/Settings/::1707675057
-save_settings.gd::GDScript::-1::1707675057::0::1::::<>Node<>::
-::res://Assets/Script/Controller/UI/::1707635182
+::res://Assets/Script/Controller/Save/Settings/::1707733766
+save_settings.gd::GDScript::-1::1707733766::0::1::::<>Node<>::
+::res://Assets/Script/Controller/UI/::1707797320
 ::res://Assets/Script/Controller/UI/Character_Selector/::1707664164
 Selector_Player.gd::GDScript::-1::1707664164::0::1::::<>Node2D<>::
-::res://Assets/Script/Controller/UI/Exit_Confirmation/::1707654543
-Exit Confirmation.gd::GDScript::-1::1707654543::0::1::::<>Control<>::
+::res://Assets/Script/Controller/UI/Exit_Confirmation/::1707777439
+Exit Confirmation.gd::GDScript::-1::1707777439::0::1::::<>Control<>::
+::res://Assets/Script/Controller/UI/How to play/::1707806303
+How_To_Play.gd::GDScript::-1::1707806303::0::1::::<>Node2D<>::
 ::res://Assets/Script/Controller/UI/Loading/::1707636328
 loading_screen.gd::GDScript::-1::1707472260::0::1::::<>Node<>::
 loading_screen_Menu.gd::GDScript::-1::1707636328::0::1::::<>CanvasLayer<>::
-::res://Assets/Script/Controller/UI/Main_Menu/::1707651142
-main_menu.gd::GDScript::-1::1707651142::0::1::::Main_Menu<>Control<>::
-::res://Assets/Script/Controller/UI/Options_Menu/::1707675343
-Options_Menu.gd::GDScript::-1::1707675343::0::1::::Option_Menu<>Control<>::
-::res://Assets/Script/Controller/UI/Settings_Confirmation/::1707641521
-settings_confrimation.gd::GDScript::-1::1707641521::0::1::::<>Control<>::
+::res://Assets/Script/Controller/UI/Load_slot/::1707779639
+loader_screen.gd::GDScript::-1::1707779639::0::1::::<>RefCounted<>::
+::res://Assets/Script/Controller/UI/Main_Menu/::1707777469
+main_menu.gd::GDScript::-1::1707777469::0::1::::Main_Menu<>Control<>::
+::res://Assets/Script/Controller/UI/Options_Menu/::1707695260
+Options_Menu.gd::GDScript::-1::1707695260::0::1::::Option_Menu<>Control<>::
+::res://Assets/Script/Controller/UI/Settings_Confirmation/::1707695362
+settings_confrimation.gd::GDScript::-1::1707695362::0::1::::<>Control<>::
 ::res://Assets/Script/Controller/UI/Splash_Screen/::1707365144
 Splash_Screen.gd::GDScript::-1::1707365037::0::1::::<>Node<>::
 Splash_Screen_Played.gd::GDScript::-1::1707365144::0::1::::<>Node<>::
-::res://Assets/Script/Controller/UI/World_Map/::1707665073
-World Map.gd::GDScript::-1::1707665073::0::1::::World_Map<>Control<>::
+::res://Assets/Script/Controller/UI/World_Map/::1707807079
+World Map.gd::GDScript::-1::1707807079::0::1::::World_Map<>Control<>::
 ::res://Assets/Theme/::1707622204
-::res://Assets/Theme/Dialouge/::1707654189
-Exit_Confirmation.tres::Theme::3636609429817157686::1707654189::0::1::::<><>::uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
+::res://Assets/Theme/Dialouge/::1707792349
+Exit_Confirmation.tres::Theme::3636609429817157686::1707792349::0::1::::<><>::uid://bsmkjcem4b3i1::::res://Assets/Fonts/DisposableDroidBB.ttf
 ::res://Assets/Theme/Main Menu/::1707622191
 main_menu_button.tres::StyleBoxFlat::5387923169860628167::1707503296::0::1::::<><>::
-::res://Save/::1707675064

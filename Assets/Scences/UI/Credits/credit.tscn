@@ -171,7 +171,7 @@ offset_right = 0.599976
 offset_bottom = 0.279968
 theme_override_fonts/font = ExtResource("3_be0qo")
 theme_override_font_sizes/font_size = 24
-text = "- Aiva"
+text = "- Youtube"
 
 [node name="Back_Button" type="Button" parent="TextureRect"]
 layout_mode = 1
@@ -204,3 +204,11 @@ theme_override_fonts/font = ExtResource("4_bimxs")
 theme_override_font_sizes/font_size = 18
 text = "Next"
 flat = true
+
+[node name="ColorRect" type="ColorRect" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2

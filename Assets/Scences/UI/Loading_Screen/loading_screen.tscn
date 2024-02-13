@@ -1,7 +1,7 @@
 [gd_scene load_steps=8 format=3 uid="uid://cvjvmfot8bet4"]
 
 [ext_resource type="Script" path="res://Assets/Script/Controller/UI/Loading/loading_screen_Menu.gd" id="1_f1x7p"]
-[ext_resource type="Texture2D" uid="uid://bs4ejchvb0yx4" path="res://Assets/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg" id="2_tw8l5"]
+[ext_resource type="Texture2D" uid="uid://bs4ejchvb0yx4" path="res://Assets/Image/Background/Loading_Screen/Firefly Gray Wolf-Howling night fullmoon pixel art 1441.jpeg" id="2_tw8l5"]
 [ext_resource type="FontFile" uid="uid://ccpiomxr4hnwi" path="res://Assets/Fonts/DisposableDroidBB_bldital.ttf" id="3_aayw6"]
 
 [sub_resource type="Animation" id="Animation_qogmh"]

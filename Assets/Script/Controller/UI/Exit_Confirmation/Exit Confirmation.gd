@@ -3,6 +3,7 @@ extends Control
 @onready var Warning = $Warning
 @onready var Button_Sound = $Button_sound
 @onready var Bye = $Bye
+@onready var window = $ConfirmationDialog
 #For sound
 func _ready():
 	Warning.play()
@@ -11,7 +12,6 @@ func _ready():
 func _on_confirmation_dialog_confirmed():
 	Button_Sound.play()
 	Bye.play()
-
 #No 
 func _on_confirmation_dialog_canceled():
 	Button_Sound.play()

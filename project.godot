@@ -46,7 +46,7 @@ variables={
 "Stat": {
 "Attack": "",
 "Defences": "",
-"Health": ""
+"Health": "100"
 }
 }
 event_default_overrides={
@@ -133,7 +133,7 @@ layout/styles={
 layout/default_style="res://Assets/Dialogue/Theme/Speaker_Mode.tres"
 text/skippable_delay=0.1
 text/input_action="interact"
-save/autosave=false
+save/autosave=true
 directories/dch_directory={
 "Mr_Wolf": "res://Assets/Dialogue/Character/Mr_Wolf.dch"
 }
@@ -148,6 +148,10 @@ text/text_reveal_skip_delay=0.1
 text/autoadvance_per_character_delay=0.1
 text/autoadvance_ignored_characters_enabled=true
 save/encryption_on_exports_only=true
+save/encryption_password="Blizzard03"
+save/default_slot="Blizzard"
+translation/save_mode=0
+extensions_folder="res://addons/dialogic_additions"
 
 [display]
 
@@ -225,7 +229,7 @@ dialogic_default_action={
 
 [internationalization]
 
-locale/test="de"
+locale/test="en"
 
 [physics]
 
@@ -233,6 +237,7 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
+driver/threads/thread_model=2
 textures/vram_compression/import_etc2_astc=true
 shading/overrides/force_vertex_shading=true
 shading/overrides/force_lambert_over_burley=true

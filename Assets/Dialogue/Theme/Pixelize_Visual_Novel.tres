@@ -27,6 +27,7 @@ scene = ExtResource("4_3vekn")
 overrides = {
 "bold_font": "\"res://Assets/Fonts/DisposableDroidBB_bld.ttf\"",
 "bold_italic_font": "\"res://Assets/Fonts/DisposableDroidBB_bldital.ttf\"",
+"box_margin_bottom": "10.0",
 "italic_font": "\"res://Assets/Fonts/DisposableDroidBB_ital.ttf\"",
 "name_label_font": "\"res://Assets/Fonts/DisposableDroidBB.ttf\"",
 "normal_font": "\"res://Assets/Fonts/DisposableDroidBB.ttf\""

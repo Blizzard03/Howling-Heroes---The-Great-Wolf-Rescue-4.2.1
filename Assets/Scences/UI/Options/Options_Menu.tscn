@@ -56,7 +56,6 @@ theme_override_fonts/font = ExtResource("2_al8ah")
 theme_override_font_sizes/font_size = 32
 
 [node name="Video" type="TabBar" parent="Backkground/Options Menu/Settings_Option_Tab_Menu"]
-visible = false
 layout_mode = 2
 
 [node name="Video_Settings" type="GridContainer" parent="Backkground/Options Menu/Settings_Option_Tab_Menu/Video"]
@@ -115,6 +114,7 @@ offset_right = -0.0349426
 offset_bottom = 0.00802994
 
 [node name="Audio" type="TabBar" parent="Backkground/Options Menu/Settings_Option_Tab_Menu"]
+visible = false
 layout_mode = 2
 
 [node name="Audio_Settings" type="GridContainer" parent="Backkground/Options Menu/Settings_Option_Tab_Menu/Audio"]

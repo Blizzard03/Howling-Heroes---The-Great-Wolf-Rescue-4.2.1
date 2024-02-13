@@ -1,6 +1,6 @@
 extends Node
 
-const save_setting_location = "res://Save/Settings_data.dat"
+const save_setting_location = "user://Save/Settings/Settings_data.dat"
 var Data_Settings={
 			"FullScreen_on":false,
 			"V_Sync_on":false,
