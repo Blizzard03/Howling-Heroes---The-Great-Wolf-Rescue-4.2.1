@@ -1,6 +1,6 @@
 extends Node
 
-const save_setting_location = "user://Save/Settings/Settings_data.dat"
+const save_setting_location = "user://Save/Settings/Settings_data.WPA"
 var Data_Settings={
 			"FullScreen_on":false,
 			"V_Sync_on":false,
@@ -11,6 +11,7 @@ var Data_Settings={
 		}
 		
 func _ready():
+	save_settings()
 	load_settings()
 	
 func save_settings():

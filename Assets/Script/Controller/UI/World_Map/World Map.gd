@@ -33,7 +33,7 @@ func _setter_usa(us):
 func _getter_usa():
 	return usa
 	
-
+##
 func _on_canada_pressed():
 	canada = Canada.get_text()
 	print(canada)
