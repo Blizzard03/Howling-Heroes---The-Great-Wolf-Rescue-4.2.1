@@ -3,6 +3,3 @@ res://Assets/Dialogue/Theme/Speaker_Mode.tres
 res://Assets/Dialogue/Theme/Pixelize_Visual_Novel.tres
 res://Assets/Script/Controller/UI/How to play/How_To_Play.gd
 res://Assets/Script/Controller/UI/World_Map/World Map.gd
-res://Assets/Script/Class/Wolf Almanac/wolf_almanac.gd
-res://Assets/Script/Controller/Save/Settings/save_settings.gd
-res://Assets/Scences/UI/Main_Menu/main_menu.tscn

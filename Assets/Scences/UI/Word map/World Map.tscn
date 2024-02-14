@@ -18,6 +18,13 @@ anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
 script = ExtResource("1_oqnmy")
+canada = null
+usa = null
+mexico = null
+greenland = null
+europe = null
+asia = null
+africa = null
 metadata/_edit_lock_ = true
 
 [node name="World-Map" type="TextureRect" parent="."]

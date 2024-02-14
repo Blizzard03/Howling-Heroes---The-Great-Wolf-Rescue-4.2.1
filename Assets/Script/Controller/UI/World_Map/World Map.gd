@@ -1,7 +1,7 @@
 class_name World_Map
 extends Control
 
-@export var canada : String
+@export var canada : String setget _setter_canada,_getter_canada
 @export var usa : String
 @export var mexico : String
 @export var greenland : String
@@ -33,7 +33,7 @@ func _setter_usa(us):
 func _getter_usa():
 	return usa
 	
-##
+
 func _on_canada_pressed():
 	canada = Canada.get_text()
 	print(canada)
