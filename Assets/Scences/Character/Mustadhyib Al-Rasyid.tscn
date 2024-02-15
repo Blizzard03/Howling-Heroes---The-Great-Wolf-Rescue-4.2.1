@@ -1,3 +1,6 @@
-[gd_scene format=3 uid="uid://w8tfinbfyqkd"]
+[gd_scene load_steps=2 format=3 uid="uid://w8tfinbfyqkd"]
+
+[ext_resource type="Script" path="res://Assets/Script/Class/Player/Mustadhyib Al-Rasyid.gd" id="1_tvrgc"]
 
 [node name="MustadhyibAl-rasyid" type="Sprite2D"]
+script = ExtResource("1_tvrgc")

@@ -1,5 +1,5 @@
 res://Assets/Scences/UI/Word map/World Map.tscn
-res://Assets/Dialogue/Theme/Speaker_Mode.tres
-res://Assets/Dialogue/Theme/Pixelize_Visual_Novel.tres
-res://Assets/Script/Controller/UI/How to play/How_To_Play.gd
 res://Assets/Script/Controller/UI/World_Map/World Map.gd
+res://Assets/Scences/Character/Mustadhyib Al-Rasyid.tscn
+res://Assets/Script/Class/Player/Mustadhyib Al-Rasyid.gd
+res://Assets/Script/Controller/Save/Settings/save_settings.gd
