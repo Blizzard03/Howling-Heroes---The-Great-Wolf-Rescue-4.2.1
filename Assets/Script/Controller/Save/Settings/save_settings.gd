@@ -1,3 +1,4 @@
+class_name  save_settings
 extends Node
 
 const save_setting_location = "user://Save/Settings/Settings_data.WPA"

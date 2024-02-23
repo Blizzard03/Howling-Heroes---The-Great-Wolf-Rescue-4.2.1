@@ -2,5 +2,13 @@
 
 [ext_resource type="Script" path="res://Assets/Script/Class/Player/Mustadhyib Al-Rasyid.gd" id="1_tvrgc"]
 
-[node name="MustadhyibAl-rasyid" type="Sprite2D"]
+[node name="Mustadyib Al-Rasyid" type="CharacterBody2D"]
 script = ExtResource("1_tvrgc")
+name_character = null
+health = null
+location = null
+speed = null
+xpos = null
+ypos = null
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="."]

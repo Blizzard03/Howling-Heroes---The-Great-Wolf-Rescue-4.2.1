@@ -1,9 +1,15 @@
+res://Assets/Fonts
+res://Assets/Image/Wolves/Gray Wolf
+res://Assets/Image/images/Buttons
+C:/Users/Blizzard/AppData/Local/Programs/Microsoft VS Code Insiders
+res://Assets/Script/Controller/UI/Wolf Alamanac
+res://Assets/Scences/UI/Wolf_Almanac
 res://Assets/Script/Class/Player
+res://Assets/Scences/Character
 res://Assets/Music/How_To_Play
 res://Assets/Script/Controller/UI/How to play
 res://Assets/Scences/Location/How_to_Play
 res://Assets/Music/Dialogues/How to Play
-res://Assets/Fonts
 res://Assets/Script/Controller/UI/Load_slot
 C:/Users/Blizzard/Documents/GitHub/Howling Heroes _ The Great Wolf Rescue
 res://Assets/Image/Logo
@@ -14,10 +20,3 @@ res://Assets/Script/Controller/UI/Settings_Confirmation
 res://Assets/Script/Controller/UI/Options_Menu
 res://Assets/Theme/Dialouge
 res://Assets/Scences/UI/Main_Menu
-res://Assets/Scences/UI/Settings_Confrimation
-res://Assets/Scences/UI/Credits
-res://Assets/Image/images/Pin
-res://Assets/Script/Controller/UI/World_Map
-res://Assets/Scences/UI/Word map
-res://Assets/Image/Character/Aldhiyb Alqutbiu Al-Rasyid
-C:/Users/Blizzard/Documents/GitHub/Howling-Heroes---The-Great-Wolf-Rescue-4.3.1/Assets/Fonts

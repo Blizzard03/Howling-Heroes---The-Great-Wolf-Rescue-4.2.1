@@ -1,0 +1,34 @@
+[remap]
+
+importer="texture"
+type="CompressedTexture2D"
+uid="uid://bcuanwfop8i73"
+path="res://.godot/imported/C._l._italicus_in_MNP.jpg-1a0bae4638977cc34bda0302056d9cc5.ctex"
+metadata={
+"vram_texture": false
+}
+
+[deps]
+
+source_file="res://Assets/Image/Wolves/Italian Wolf/C._l._italicus_in_MNP.jpg"
+dest_files=["res://.godot/imported/C._l._italicus_in_MNP.jpg-1a0bae4638977cc34bda0302056d9cc5.ctex"]
+
+[params]
+
+compress/mode=0
+compress/high_quality=false
+compress/lossy_quality=0.7
+compress/hdr_compression=1
+compress/normal_map=0
+compress/channel_pack=0
+mipmaps/generate=false
+mipmaps/limit=-1
+roughness/mode=0
+roughness/src_normal=""
+process/fix_alpha_border=true
+process/premult_alpha=false
+process/normal_map_invert_y=false
+process/hdr_as_srgb=false
+process/hdr_clamp_exposure=false
+process/size_limit=0
+detect_3d/compress_to=1

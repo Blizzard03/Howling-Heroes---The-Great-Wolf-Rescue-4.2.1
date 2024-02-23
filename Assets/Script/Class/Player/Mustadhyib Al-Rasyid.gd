@@ -1,38 +1,63 @@
 class_name Player
-extends Sprite2D
+extends CharacterBody2D
 
-@export var name_character : String
-@export var health : int
-@export var location : String
-@export var speed : int
-@export var xpos : int
-@export var ypos : int
+# Variables class
+@export var name_character : String : set = setter_name, get= getter_name
+@export var health : int : set = setter_health, get= getter_health
+@export var location : String : set = setter_location, get=getter_location
+@export var speed : int : set = setter_speed, get = getteer_speed
+@export var xpos : int : set = setter_Xpos, get = getter_Xpos
+@export var ypos : int : set = setter_Ypos, get = getter_Ypos
 
+#Vector2
 #Setter Name Character
-func _setter_name(name):
-	name_character = name_character
+func setter_name(name):
+	name_character = name
 	
 #Getter Name Character
-func _getter_name():
+func getter_name():
 	return name_character
 	
 #Setter Health
-func _setter_health(hlt):
+func setter_health(hlt):
 	health = hlt
 
 #Getter Health
-func _getter_health():
+func getter_health():
 	return health
 	
 #Setter Location
-func _setter_location(lct):
+func setter_location(lct):
 	location = lct
 
 #Getter Location
-func _getter_location():
+func getter_location():
 	return location
 	
 #Setter Speed
-func _setter_speed(spd):
+func setter_speed(spd):
 	speed = spd
 	
+#Getter Speed
+func getteer_speed():
+	return speed
+	
+#Setter Xpos
+func setter_Xpos(xloc):
+	xpos = xloc
+
+#Getter Xpos
+func getter_Xpos():
+	return xpos
+
+#Setter YPost
+func setter_Ypos(yloc):
+	ypos = yloc
+
+#Getter YPost
+func getter_Ypos():
+	return ypos
+
+
+func ready():
+	pass
