@@ -1,6 +1,7 @@
-res://Assets/Scences/UI/Wolf_Almanac/wolf_almanac.tscn
+res://Assets/Scences/Character/Mustadhyib Al-Rasyid.tscn
 res://Assets/Dialogue/Theme/Speaker_Mode.tres
 res://Assets/Dialogue/Theme/Pixelize_Visual_Novel.tres
-res://Assets/Script/Controller/UI/How to play/How_To_Play.gd
-res://Assets/Dialogue/Character/Mr_Wolf.dch
-res://Assets/Script/Class/Wolf/Wolves_Save/save_Wolves.gd
+res://Assets/Scences/UI/Wolf_Almanac/wolf_almanac.tscn
+res://Assets/Scences/UI/Main_Menu/main_menu.tscn
+res://Assets/Scences/UI/Splash/Splash_Screen.tscn
+res://Assets/Script/Controller/UI/Wolf Alamanac/Wolf_Alamanac.gd
