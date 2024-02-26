@@ -61,3 +61,8 @@ func getter_Ypos():
 
 func ready():
 	pass
+
+func moveCharacter():
+	pass
+func is_Dead():
+	pass

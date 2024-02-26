@@ -1,9 +1,9 @@
+TextureRect
 RichTextLabel
 ColorRect
 AnimationPlayer
 Button
 Label
-TextureRect
 CollisionPolygon2D
 CharacterBody2D
 Popup

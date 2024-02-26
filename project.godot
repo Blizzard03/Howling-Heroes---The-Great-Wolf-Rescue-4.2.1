@@ -13,6 +13,7 @@ config_version=5
 config/name="HOWLING HEROES : THE GREAT WOLF RESCUE"
 config/description="An interactive role-playing game called Howling Heroes: The Great Wolf Rescue takes place in the fascinating world of wolves, more especially the Canis lupus species. Navigating through difficult platformer stages, players must solve puzzles and face enemies in order to save endangered wolf packs. It's an engrossing trip. The game conveys a strong message about conservation in addition to providing an interesting and instructive experience about the complex lives of wolves in the wild. Howling Heroes seeks to raise awareness of environmental issues and motivate players to take action to safeguard animals and preserve the environment by means of its breathtaking visuals and engrossing gameplay."
 config/version="V 1.0"
+config/tags=PackedStringArray("final_project")
 run/main_scene="res://Assets/Scences/UI/Splash/Splash_Screen_Played.tscn"
 config/features=PackedStringArray("4.2")
 run/max_fps=144
@@ -237,7 +238,6 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
-renderer/rendering_method="gl_compatibility"
 textures/vram_compression/import_etc2_astc=true
 shading/overrides/force_vertex_shading=true
 shading/overrides/force_lambert_over_burley=true
