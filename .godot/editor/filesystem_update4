@@ -1,4 +1,6 @@
-res://Assets/Scences/UI/Wolf_Almanac/Index/Wolf_Almanac_Idex.tscn
+res://Assets/Scences/UI/Wolf_Almanac/Index/wolf_almanac_idex_page_4.tscn
 res://Assets/Dialogue/Theme/Speaker_Mode.tres
 res://Assets/Dialogue/Theme/Pixelize_Visual_Novel.tres
-res://Assets/Dialogue/Character/Mr_Wolf.dch
+res://Assets/Script/Controller/UI/How to play/How_To_Play.gd
+res://Assets/Script/Controller/UI/Wolf Alamanac/Index/Wolf_Almanac_Idex.gd
+res://Assets/Scences/UI/Wolf_Almanac/Index/wolf_almanac_idex_page_3.tscn

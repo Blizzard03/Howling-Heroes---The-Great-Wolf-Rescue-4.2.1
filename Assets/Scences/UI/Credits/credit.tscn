@@ -1,9 +1,42 @@
-[gd_scene load_steps=5 format=3 uid="uid://bbyynyiqulvmb"]
+[gd_scene load_steps=7 format=3 uid="uid://bbyynyiqulvmb"]
 
 [ext_resource type="Texture2D" uid="uid://d4bb46msror13" path="res://Assets/Image/images/Credits/pixel_art_A_breathtaking_lands.jpeg" id="1_hxuib"]
 [ext_resource type="FontFile" uid="uid://74m415i5q2nb" path="res://Assets/Fonts/Wolf Moon.ttf" id="2_n65go"]
 [ext_resource type="FontFile" uid="uid://2gbyqhhtj8i7" path="res://Assets/Fonts/Roboto/Roboto-BoldItalic.ttf" id="3_be0qo"]
 [ext_resource type="FontFile" uid="uid://bsmkjcem4b3i1" path="res://Assets/Fonts/DisposableDroidBB.ttf" id="4_bimxs"]
+
+[sub_resource type="Animation" id="Animation_dh4dg"]
+resource_name = "Fade_in"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("Fade_Effect:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(0, 0, 0, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("TextureRect/Credit Tittle:self_modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.6, 0.9),
+"transitions": PackedFloat32Array(2, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_7dd0w"]
+_data = {
+"Fade_in": SubResource("Animation_dh4dg")
+}
 
 [node name="Credit" type="Control"]
 layout_mode = 3
@@ -105,11 +138,10 @@ layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.125
 anchor_top = 0.247
-anchor_right = 0.214
-anchor_bottom = 0.287
+anchor_right = 0.25
+anchor_bottom = 0.289
 offset_top = 0.159988
-offset_right = 46.08
-offset_bottom = 0.360001
+offset_bottom = -0.0800171
 theme_override_fonts/font = ExtResource("3_be0qo")
 theme_override_font_sizes/font_size = 24
 text = "- Pretty AI"
@@ -129,17 +161,32 @@ theme_override_font_sizes/font_size = 24
 text = "- Adobe Firefly"
 metadata/_edit_group_ = true
 
+[node name="Freepic" type="Label" parent="TextureRect"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.125
+anchor_top = 0.344
+anchor_right = 0.25
+anchor_bottom = 0.386
+offset_top = 0.319992
+offset_bottom = 0.0799866
+theme_override_fonts/font = ExtResource("3_be0qo")
+theme_override_font_sizes/font_size = 24
+text = "- Freepic
+"
+metadata/_edit_group_ = true
+
 [node name="Music" type="Label" parent="TextureRect"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.023
-anchor_top = 0.358
+anchor_top = 0.403
 anchor_right = 0.078
-anchor_bottom = 0.399
+anchor_bottom = 0.443
 offset_left = 0.559998
-offset_top = 0.23999
+offset_top = -0.160034
 offset_right = 0.159996
-offset_bottom = -0.279999
+offset_bottom = 0.039978
 theme_override_fonts/font = ExtResource("3_be0qo")
 theme_override_font_sizes/font_size = 24
 text = "Music "
@@ -151,14 +198,14 @@ anchor_left = 0.125
 anchor_top = 0.358
 anchor_right = 0.18
 anchor_bottom = 0.399
-offset_top = 0.23999
+offset_top = 32.24
 offset_right = 0.599991
-offset_bottom = -0.279999
+offset_bottom = 31.72
 theme_override_fonts/font = ExtResource("3_be0qo")
 theme_override_font_sizes/font_size = 24
 text = "- Aiva"
 
-[node name="Music3" type="Label" parent="TextureRect"]
+[node name="Youtube" type="Label" parent="TextureRect"]
 layout_mode = 1
 anchors_preset = -1
 anchor_left = 0.126
@@ -166,9 +213,9 @@ anchor_top = 0.404
 anchor_right = 0.205
 anchor_bottom = 0.451
 offset_left = -0.279999
-offset_top = 0.119995
-offset_right = 0.599976
-offset_bottom = 0.279968
+offset_top = 32.12
+offset_right = 0.600006
+offset_bottom = 32.28
 theme_override_fonts/font = ExtResource("3_be0qo")
 theme_override_font_sizes/font_size = 24
 text = "- Youtube"
@@ -205,10 +252,16 @@ theme_override_font_sizes/font_size = 18
 text = "Next"
 flat = true
 
-[node name="ColorRect" type="ColorRect" parent="."]
+[node name="Fade_Effect" type="ColorRect" parent="."]
 layout_mode = 1
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+color = Color(1, 1, 1, 0)
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_7dd0w")
+}

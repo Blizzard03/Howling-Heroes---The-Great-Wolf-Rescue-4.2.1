@@ -1,8 +1,11 @@
+res://Assets/Scences/UI/Wolf_Almanac/Index
+res://Assets/Music/Start_Buton_Sound
+res://Assets/Script/Controller/UI/Wolf Alamanac/Index
+res://Assets/Fonts
 C:/Users/Blizzard/AppData/Roaming/Godot/import_FBX2glTF/FBX2glTF-windows-x86_64
 C:/Program Files/Adobe/Adobe Photoshop 2024
 C:/Program Files/Adobe/Adobe Illustrator 2024/Support Files/Contents/Windows
 C:/Users/Blizzard/AppData/Local/Programs/Microsoft VS Code Insiders
-res://Assets/Fonts
 res://Assets/Image/Wolves/Gray Wolf
 res://Assets/Image/images/Buttons
 res://Assets/Script/Controller/UI/Wolf Alamanac
@@ -17,9 +20,3 @@ res://Assets/Script/Controller/UI/Load_slot
 C:/Users/Blizzard/Documents/GitHub/Howling Heroes _ The Great Wolf Rescue
 res://Assets/Image/Logo
 res://Assets/Script/Controller/Save/Global_Settings
-res://Assets/Script/Controller/Save
-res://Assets/Fonts/Roboto
-res://Assets/Script/Controller/UI/Settings_Confirmation
-res://Assets/Script/Controller/UI/Options_Menu
-res://Assets/Theme/Dialouge
-res://Assets/Scences/UI/Main_Menu

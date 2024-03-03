@@ -9,6 +9,9 @@ extends CharacterBody2D
 @export var xpos : int : set = setter_Xpos, get = getter_Xpos
 @export var ypos : int : set = setter_Ypos, get = getter_Ypos
 
+#Variables Scence Tree Node Reffrence 
+@onready var Wolf_Almanac_Menu = $"Wolf almanac/WolfAlmanacIdex"
+
 #Vector2
 #Setter Name Character
 func setter_name(name):
