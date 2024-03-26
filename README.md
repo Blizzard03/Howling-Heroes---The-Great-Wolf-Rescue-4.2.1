@@ -16,13 +16,15 @@
 
 1. **Godot 4.2.1**
 
-	<img src="https://godotengine.org/assets/logo_dark.svg" width="128"/>
-
+	[4]: https://github.com/godotengine/godot/releases/download/4.2.1-stable/Godot_v4.2.1-stable_mono_win64.zip
+	[<img src="https://godotengine.org/assets/logo_dark.svg" width="128"/>][4]
+	
    
 
 3. **Adobe Photoshop CC 2024**
-  
-   <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" width="128px" height= "45px"/> 
+
+  [5]: https://www.adobe.com/products/photoshop.html
+   [<img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/ps_appicon.svg" width="128px" height= "45px"/> ][5]
 
    
    
@@ -30,3 +32,7 @@
 
    <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" width="128px" height="45px"/>
   
+7. Tilesetter Pro
+   
+   [3]: https://store.steampowered.com/app/1105890/Tilesetter/
+   [![image](https://github.com/Blizzard03/Howling-Heroes---The-Great-Wolf-Rescue-4.3.1/assets/99153189/3c63a447-091a-4f4b-99ae-e39788222731)][3]
