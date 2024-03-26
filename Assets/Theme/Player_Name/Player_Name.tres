@@ -1,0 +1,10 @@
+[gd_resource type="Theme" load_steps=3 format=3 uid="uid://cya18eaoptu42"]
+
+[ext_resource type="FontFile" uid="uid://bv6xsykw7vcai" path="res://Assets/Fonts/DisposableDroidBB_bld.ttf" id="1_syb0a"]
+
+[sub_resource type="StyleBoxEmpty" id="StyleBoxEmpty_i8yfw"]
+
+[resource]
+LineEdit/font_sizes/font_size = 24
+LineEdit/fonts/font = ExtResource("1_syb0a")
+LineEdit/styles/focus = SubResource("StyleBoxEmpty_i8yfw")

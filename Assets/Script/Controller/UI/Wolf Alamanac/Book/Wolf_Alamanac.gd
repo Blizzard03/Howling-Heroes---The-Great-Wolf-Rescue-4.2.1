@@ -8,7 +8,7 @@ extends Node
 #Wolf Species
 @onready var Species = $Species
 #Wolf 
-@onready var 
+#@onready var 
 
 #Effect
 @onready var animations = $Animation

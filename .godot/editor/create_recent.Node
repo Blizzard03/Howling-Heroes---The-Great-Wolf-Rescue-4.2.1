@@ -1,7 +1,10 @@
+LineEdit
+CenterContainer
+TextureRect
+ConfirmationDialog
 AudioStreamPlayer2D
 Label
 Button
-TextureRect
 VBoxContainer
 GridContainer
 AnimatedSprite2D
@@ -10,5 +13,3 @@ AnimationPlayer
 RichTextLabel
 ColorRect
 CollisionPolygon2D
-CharacterBody2D
-Popup

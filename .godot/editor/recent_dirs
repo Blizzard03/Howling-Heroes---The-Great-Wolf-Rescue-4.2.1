@@ -1,7 +1,9 @@
+res://Assets/Script/Controller/UI/Player_Name
+res://Assets/Theme/Player_Name
+res://Assets/Fonts
 res://Assets/Scences/UI/Wolf_Almanac/Index
 res://Assets/Music/Start_Buton_Sound
 res://Assets/Script/Controller/UI/Wolf Alamanac/Index
-res://Assets/Fonts
 C:/Users/Blizzard/AppData/Roaming/Godot/import_FBX2glTF/FBX2glTF-windows-x86_64
 C:/Program Files/Adobe/Adobe Photoshop 2024
 C:/Program Files/Adobe/Adobe Illustrator 2024/Support Files/Contents/Windows
@@ -18,5 +20,3 @@ res://Assets/Scences/Location/How_to_Play
 res://Assets/Music/Dialogues/How to Play
 res://Assets/Script/Controller/UI/Load_slot
 C:/Users/Blizzard/Documents/GitHub/Howling Heroes _ The Great Wolf Rescue
-res://Assets/Image/Logo
-res://Assets/Script/Controller/Save/Global_Settings
