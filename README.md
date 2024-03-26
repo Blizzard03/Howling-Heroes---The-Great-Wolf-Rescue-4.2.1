@@ -30,7 +30,8 @@
    
 6. Adobe Premiere Pro CC 2024
 
-   <img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" width="128px" height="45px"/>
+   [6]: https://www.adobe.com/products/premiere.html
+[<img src="https://www.adobe.com/content/dam/acom/one-console/icons_rebrand/pr_appicon.svg" width="128px" height="45px"/> ][6]
   
 7. Tilesetter Pro
    
